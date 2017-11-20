@@ -9,7 +9,7 @@ T_3 = ufloat(1.362, 0.032)
 T_4 = ufloat(0.514, 0.062)
 
 
-print('I_k=', repr((D/(2*np.pi)**2)*T**2 ))
+print('I_k=', repr(((D/(2*np.pi)**2)*T**2) -I))
 print('I_z=', repr(((D/(2*np.pi)**2)*T_2**2) -I))
-print('I_p1=', repr((D/(2*np.pi)**2)*T_3**2))
-print('I_p2=', repr((D/(2*np.pi)**2)*T_4**2 ))
+print('I_p1=', repr(((D/(2*np.pi)**2)*T_3**2)-I))
+print('I_p2=', repr(((D/(2*np.pi)**2)*T_4**2)-I ))

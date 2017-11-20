@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  20 NOV 2017 00:36
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  20 NOV 2017 20:52
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.250 seconds
+luaotfload | main : initialization completed in 0.234 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2270,21 +2270,21 @@ Language ngerman already loaded; id is 8)
 ] (./Theorie.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/
 otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gener
 ic/fonts/otl/lmroman5-regular.luc)
-<Bild1.jpg, id=37, pagebox=cropbox, 445.665pt x 140.77594pt>
+<Bild1.jpg, id=49, pagebox=cropbox, 445.665pt x 140.77594pt>
 File: Bild1.jpg Graphic file (type jpg)
 <use Bild1.jpg>
 Package luatex.def Info: Bild1.jpg  used on input line 17. on input line 17.
 Package luatex.def Info: Requested size: 418.25555pt x 132.11887pt on input line
  17.
  [3<./Bild1.jpg>]) (./Versuchsaufbau.tex
-<Bild2.jpg, id=50, pagebox=cropbox, 108.7814pt x 237.13594pt>
+<Bild2.jpg, id=62, pagebox=cropbox, 108.7814pt x 237.13594pt>
 File: Bild2.jpg Graphic file (type jpg)
 <use Bild2.jpg>
 Package luatex.def Info: Bild2.jpg  used on input line 7. on input line 7.
 Package luatex.def Info: Requested size: 142.2839pt x 284.53636pt on input line 
 7.
 ) (./Durchfuehrung.tex
-<Bild3.jpg, id=51, pagebox=cropbox, 394.85016pt x 193.0964pt>
+<Bild3.jpg, id=63, pagebox=cropbox, 394.85016pt x 193.0964pt>
 File: Bild3.jpg Graphic file (type jpg)
 <use Bild3.jpg>
 Package luatex.def Info: Bild3.jpg  used on input line 12. on input line 12.
@@ -2295,40 +2295,560 @@ Package luatex.def Info: Requested size: 418.25555pt x 204.54271pt on input line
 Missing character: There is no 𝜙 (U+1D719) in font [lmroman10-regular]:+tlig;
 !
 <./Bild2.jpg>] [5<./Bild3.jpg>]
-<ausgleichsgerade1.pdf, id=65, pagebox=cropbox, 462.52798pt x 346.89601pt>
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[6]
+<ausgleichsgerade1.pdf, id=81, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: ausgleichsgerade1.pdf Graphic file (type pdf)
 <use ausgleichsgerade1.pdf>
-Package luatex.def Info: ausgleichsgerade1.pdf  used on input line 100. on input
- line 100.
+Package luatex.def Info: ausgleichsgerade1.pdf  used on input line 101. on input
+ line 101.
 Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
- 100.
- [6] [7<./ausgleichsgerade1.pdf>])
+ 101.
+ [7<./ausgleichsgerade1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--251
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 345--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--362
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 503--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+) [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
- [8]
+ [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
  (./Protokoll.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 5E9D8205C1F8D137CFE3D5BD19907685;5629.
+(rerunfilecheck)             Checksum: 02D0D49C66EFFFCDE5B0B8921688FEBE;10363.
 Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
-(rerunfilecheck)             Checksum: 9BD6EE482FFA1A7EA86792D44F6B03E6;743.
+(rerunfilecheck)             Checksum: E555C684CB4012066F1315AB5A13C802;1383.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40903 strings out of 494483
+ 40938 strings out of 494483
  100000,1648299 words of node,token memory allocated
- 626 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 18 attribute, 76 glue_spec, 18 attr
+ 687 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 32 attribute, 77 glue_spec, 32 attr
 ibute_list, 1 write nodes
-   avail lists: 2:841,3:101,4:36,5:193,6:1525,7:920,8:80,9:370,10:17,11:189
- 43724 multiletter control sequences out of 65536+600000
+   avail lists: 2:809,3:122,4:65,5:207,6:1529,7:633,8:71,9:373,10:17,11:189
+ 43734 multiletter control sequences out of 65536+600000
  201 fonts using 52767895 bytes
- 61i,17n,104p,8838b,2397s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,17n,104p,8838b,3000s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
 17/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/tex
@@ -2337,10 +2857,10 @@ f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf
 -dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist
 /fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/font
 s/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (8 pages, 219704 bytes).
+Output written on Protokoll.pdf (17 pages, 244784 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 272 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 131072)
+ 113 words of extra memory for PDF output out of 10000 (max. 100000000)
 

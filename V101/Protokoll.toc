@@ -8,4 +8,10 @@
 \contentsline {section}{\numberline {5}Auswertung}{5}{section.5}
 \contentsline {subsection}{\numberline {5.1}Bestimmung der Apparatekonstanten}{5}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Trägheitsmoment Kugel}{8}{subsection.5.2}
-\contentsline {section}{\nonumberline Literatur}{8}{section*.8}
+\contentsline {subsection}{\numberline {5.3}Trägheitsmoment Zylinder}{9}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Trägheitsmoment der Puppe mit Arme zur Seite}{11}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Trägheitsmoment der Puppe mit Armen nach oben}{12}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Trägheitsmoment der Puppe über geometrische Abmessungen}{13}{subsection.5.6}
+\contentsline {subsubsection}{\numberline {5.6.1}Puppe mit Armen zur Seite}{15}{subsubsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.2}Puppe mit Armen nach oben}{16}{subsubsection.5.6.2}
+\contentsline {section}{\nonumberline Literatur}{17}{section*.13}
