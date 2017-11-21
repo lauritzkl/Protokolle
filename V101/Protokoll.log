@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  20 NOV 2017 20:52
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  20 NOV 2017 21:32
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -7,7 +7,7 @@ Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
 llection.(using write cache: C:/texlive/2017/texmf-var/luatex-cache/generic)(usi
-ng read cache: C:/texlive/2017/texmf-var/luatex-cache/generic C:/Users/lauri/.te
+ng read cache: C:/texlive/2017/texmf-var/luatex-cache/generic C:/Users/rober/.te
 xlive2017/texmf-var/luatex-cache/generic)
 luaotfload | conf : Root cache directory is C:/texlive/2017/texmf-var/luatex-cac
 he/generic/names.
@@ -34,8 +34,8 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.234 seconds
-Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.431 seconds
+Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -590,7 +590,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (c:/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
 
 (c:/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -623,10 +623,10 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_shortintertext_sep=\dimen151
 )
 (c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2017/09/22 v2.6e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/09/27 2.6e Font selection for XeLaTeX and LuaLaTeX
 (c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-luatex 2017/09/22 v2.6e Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count192
 \l__fontspec_language_int=\count193
@@ -651,194 +651,184 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
+. Defining command \fontspec with sig. 'O{}mO{}' on line 482.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 486.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 490.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 494.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 498.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 502.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 506.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 510.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 514.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 518.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 522.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 526.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 593.
+. Defining command \addfontfeatures with sig. 'm' on line 530.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeature with sig. 'm' on line 597.
+. Defining command \addfontfeature with sig. 'm' on line 534.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 601.
+. Defining command \newfontfeature with sig. 'mm' on line 538.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 605.
+. Defining command \newAATfeature with sig. 'mmmm' on line 542.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 609.
+. Defining command \newopentypefeature with sig. 'mmm' on line 546.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newICUfeature with sig. 'mmm' on line 613.
+. Defining command \newICUfeature with sig. 'mmm' on line 550.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 617.
+. Defining command \aliasfontfeature with sig. 'mm' on line 554.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 558.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 625.
+. Defining command \newfontscript with sig. 'mm' on line 562.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 629.
+. Defining command \newfontlanguage with sig. 'mm' on line 566.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 570.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 574.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3284.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingAccent with sig. 'mm' on line 3372.
+. Defining command \EncodingAccent with sig. 'mm' on line 3290.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
+. Defining command \EncodingSymbol with sig. 'mm' on line 3296.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
+. Defining command \EncodingComposite with sig. 'mmm' on line 3302.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3308.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3333.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
+. Defining command \UndeclareSymbol with sig. 'm' on line 3339.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareAccent with sig. 'm' on line 3427.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \UndeclareCommand with sig. 'm' on line 3433.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
+. Defining command \UndeclareComposite with sig. 'mm' on line 3347.
 .................................................
 
 (c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 3625.
-LaTeX Info: Redefining \slshape on input line 3630.
-LaTeX Info: Redefining \scshape on input line 3635.
-LaTeX Info: Redefining \upshape on input line 3640.
-LaTeX Info: Redefining \em on input line 3670.
-LaTeX Info: Redefining \emph on input line 3695.
+LaTeX Info: Redefining \itshape on input line 3525.
+LaTeX Info: Redefining \slshape on input line 3530.
+LaTeX Info: Redefining \scshape on input line 3535.
+LaTeX Info: Redefining \upshape on input line 3540.
+LaTeX Info: Redefining \em on input line 3570.
+LaTeX Info: Redefining \emph on input line 3595.
 (load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bo
 ld.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmrom
 an10-italic.luc)
-LaTeX Info: Redefining \- on input line 3749.
+LaTeX Info: Redefining \- on input line 3646.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \oldstylenums with sig. 'm' on line 3844.
+. Redefining command \oldstylenums with sig. 'm' on line 3741.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liningnums with sig. 'm' on line 3848.
+. Defining command \liningnums with sig. 'm' on line 3745.
 .................................................
 ))
 Package typearea Info: These are the values describing the layout:
@@ -910,12 +900,14 @@ Package polyglossia Info: Making " an active character on input line 79.
 Package polyglossia Info: Default language is german.
 
 (c:/texlive/2017/texmf-dist/tex/latex/unicode-math/unicode-math.sty
-(c:/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
-)
+Package: unicode-math 2017/08/02 v0.8f Unicode maths in XeLaTeX and LuaLaTeX
+
 (c:/texlive/2017/texmf-dist/tex/latex/ucharcat/ucharcat.sty
 Package: ucharcat 2015/11/19 v0.03 ucharcat for luaLaTeX (DPC)
 \ucharcat@table=\catcodetable8
+)
+(c:/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/texlive/2017/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
@@ -931,10 +923,16 @@ Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
 Package filehook Info: Package 'scrlfile' detected and compensated for on input 
 line 102.
 ))
-(c:/texlive/2017/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
-Package: unicode-math-luatex 2017/10/09 v0.8h Unicode maths in XeLaTeX and LuaLa
-TeX
+\g__um_fam_int=\count268
+\g__um_primekern_muskip=\muskip17
+\l__um_primecount_int=\count269
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \unimathsetup with sig. 'm' on line 166.
+.................................................
 
+(c:/texlive/2017/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
 (c:/texlive/2017/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 Package: lualatex-math 2017/06/15 v1.7 Patches for mathematics typesetting with 
 LuaLaTeX
@@ -961,51 +959,33 @@ h LuaLaTeX
 . I'm going to patch macro \MT_cramped_internal:Nn.
 .................................................
 )
-\g__um_fam_int=\count268
-\g__um_primekern_muskip=\muskip17
-\l__um_primecount_int=\count269
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \unimathsetup with sig. 'm' on line 191.
+. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setoperatorfont with sig. 'm' on line 173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfont with sig. 'O{}mO{}' on line 282.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addnolimits with sig. 'm' on line 525.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \removenolimits with sig. 'm' on line 529.
 .................................................
 
 (c:/texlive/2017/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 903.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setoperatorfont with sig. 'm' on line 906.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathfont with sig. 'O{}mO{}' on line 965.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addnolimits with sig. 'm' on line 1261.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \removenolimits with sig. 'm' on line 1265.
-.................................................
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \setmathfontface with sig. 'mO{}mO{}' on line 1915.
-.................................................
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \setoperatorfont with sig. 'm' on line 1918.
-.................................................
 .................................................
 . unicode-math info: "patch-macro"
 . 
@@ -1019,22 +999,22 @@ h LuaLaTeX
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dblcolon with sig. '' on line 2741.
+. Defining command \dblcolon with sig. '' on line 1952.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \coloneqq with sig. '' on line 2741.
+. Defining command \coloneqq with sig. '' on line 1952.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Coloneqq with sig. '' on line 2741.
+. Defining command \Coloneqq with sig. '' on line 1952.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \eqqcolon with sig. '' on line 2741.
+. Defining command \eqqcolon with sig. '' on line 1952.
 .................................................
 ))
 luaotfload | cache : Lookup cache loaded from C:/texlive/2017/texmf-var/luatex-c
@@ -1191,16 +1171,15 @@ luaotfload | aux : no font with id 29
 . 
 . Font family 'XITSMath(0)' created for font 'XITS Math' with options
 . [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
-e=10.95-},{Size=7.665-10.95,Font=XITS
-. Math,Style=MathScript},{Size=-7.665,Font=XITS
-. Math,Style=MathScriptScript}}].
+e=10.95-},{Size=8-10.95,Font=XITS
+. Math,Style=MathScript},{Size=-8,Font=XITS Math,Style=MathScriptScript}}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <10.95->"XITSMath:mode=base;script=math;language=DFLT;"<7.665-10.95>"XITSMath:
-mode=base;script=math;language=DFLT;+ssty=0;"<-7.665>"XITSMath:mode=base;script=
-math;language=DFLT;+ssty=1;"
+. <10.95->"XITSMath:mode=base;script=math;language=DFLT;"<8-10.95>"XITSMath:mode
+=base;script=math;language=DFLT;+ssty=0;"<-8>"XITSMath:mode=base;script=math;lan
+guage=DFLT;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.:
 . <->"XITSMath/B:mode=base;script=math;language=DFLT;"
@@ -1224,16 +1203,16 @@ luaotfload | aux : no font with id 29
 . 
 . Font family 'XITSMath(1)' created for font 'XITS Math' with options
 . [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
-e=10.95-},{Size=7.665-10.95,Font=XITS
-. Math,Style=MathScript},{Size=-7.665,Font=XITS
+e=10.95-},{Size=8-10.95,Font=XITS
+. Math,Style=MathScript},{Size=-8,Font=XITS
 . Math,Style=MathScriptScript}},StylisticSet={1}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <10.95->"XITSMath:mode=base;script=math;language=DFLT;+ss01;"<7.665-10.95>"XIT
-SMath:mode=base;script=math;language=DFLT;+ss01;+ssty=0;"<-7.665>"XITSMath:mode=
-base;script=math;language=DFLT;+ss01;+ssty=1;"
+. <10.95->"XITSMath:mode=base;script=math;language=DFLT;+ss01;"<8-10.95>"XITSMat
+h:mode=base;script=math;language=DFLT;+ss01;+ssty=0;"<-8>"XITSMath:mode=base;scr
+ipt=math;language=DFLT;+ss01;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.:
 . <->"XITSMath/B:mode=base;script=math;language=DFLT;+ss01;"
@@ -2195,15 +2174,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
 (Font)              scaled to size 10.95015pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.6651pt on input line 14.
+(Font)              scaled to size 8.00012pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.47508pt on input line 14.
+(Font)              scaled to size 6.00009pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 10.94983pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.66487pt on input line 14.
+(Font)              scaled to size 7.99988pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.47491pt on input line 14.
+(Font)              scaled to size 5.99991pt on input line 14.
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2269,7 +2248,7 @@ Language ngerman already loaded; id is 8)
 
 ] (./Theorie.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/
 otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gener
-ic/fonts/otl/lmroman5-regular.luc)
+ic/fonts/otl/lmroman6-regular.luc)
 <Bild1.jpg, id=49, pagebox=cropbox, 445.665pt x 140.77594pt>
 File: Bild1.jpg Graphic file (type jpg)
 <use Bild1.jpg>
@@ -2324,8 +2303,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[6]
-<ausgleichsgerade1.pdf, id=81, pagebox=cropbox, 462.52798pt x 346.89601pt>
+(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-reg
+ular.luc) [6]
+<ausgleichsgerade1.pdf, id=82, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: ausgleichsgerade1.pdf Graphic file (type pdf)
 <use ausgleichsgerade1.pdf>
 Package luatex.def Info: ausgleichsgerade1.pdf  used on input line 101. on input
@@ -2830,37 +2810,47 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
-Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 02D0D49C66EFFFCDE5B0B8921688FEBE;10363.
-Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
-(rerunfilecheck)             Checksum: E555C684CB4012066F1315AB5A13C802;1383.
+
+
+Package rerunfilecheck Warning: File `Protokoll.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `Protokoll.aux':
+(rerunfilecheck)             Before: 02D0D49C66EFFFCDE5B0B8921688FEBE;10439
+(rerunfilecheck)             After:  02D0D49C66EFFFCDE5B0B8921688FEBE;10363.
+
+Package rerunfilecheck Warning: File `Protokoll.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `Protokoll.toc':
+(rerunfilecheck)             Before: E555C684CB4012066F1315AB5A13C802;1400
+(rerunfilecheck)             After:  E555C684CB4012066F1315AB5A13C802;1383.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40938 strings out of 494483
+ 40635 strings out of 494472
  100000,1648299 words of node,token memory allocated
  687 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 32 attribute, 77 glue_spec, 32 attr
 ibute_list, 1 write nodes
    avail lists: 2:809,3:122,4:65,5:207,6:1529,7:633,8:71,9:373,10:17,11:189
- 43734 multiletter control sequences out of 65536+600000
- 201 fonts using 52767895 bytes
+ 43535 multiletter control sequences out of 65536+600000
+ 109 fonts using 27472423 bytes
  61i,17n,104p,8838b,3000s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
-xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
-17/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/tex
-mf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texm
+xlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
+live/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/201
+7/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/texm
 f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf
--dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist
-/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/font
-s/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (17 pages, 244784 bytes).
+-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-
+dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
+fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts
+/opentype/public/lm/lmsans10-bold.otf>
+Output written on Protokoll.pdf (17 pages, 247958 bytes).
 
-PDF statistics: 272 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
+PDF statistics: 279 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
  60 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
