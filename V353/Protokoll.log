@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  23 NOV 2017 15:35
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  23 NOV 2017 15:47
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.234 seconds
+luaotfload | main : initialization completed in 0.252 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2282,7 +2282,7 @@ File: Schaltungsbeispiel.png Graphic file (type png)
 <use Schaltungsbeispiel.png>
 Package luatex.def Info: Schaltungsbeispiel.png  used on input line 43. on input
  line 43.
-Package luatex.def Info: Requested size: 418.25555pt x 218.69928pt on input line
+Package luatex.def Info: Requested size: 292.77855pt x 142.26506pt on input line
  43.
 [3]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -2313,7 +2313,7 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 7B13E16E866578AE72D9886551E33AF0;1964.
+(rerunfilecheck)             Checksum: 6547F1A27F0667E4564A9AE2EA866522;1968.
 Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
 (rerunfilecheck)             Checksum: F5B94DCA0EC7700C60BD1CA49AA6C4D4;227.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
@@ -2327,9 +2327,9 @@ Here is how much of LuaTeX's memory you used:
  632 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 22 attribute, 74 glue_spec, 22 attr
 ibute_list, 1 write nodes
-   avail lists: 2:243,3:115,4:32,5:232,6:2052,7:461,8:65,9:181,10:8,11:241
+   avail lists: 2:243,3:115,4:32,5:232,6:2055,7:462,8:65,9:181,10:8,11:241
  43279 multiletter control sequences out of 65536+600000
- 95 fonts using 24263995 bytes
+ 95 fonts using 24264127 bytes
  61i,7n,104p,8838b,882s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
 ive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
@@ -2337,7 +2337,7 @@ ve/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texliv
 e/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/201
 7/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/tex
 mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (4 pages, 46812 bytes).
+Output written on Protokoll.pdf (4 pages, 46895 bytes).
 
 PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
