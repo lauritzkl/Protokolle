@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  21 NOV 2017 19:50
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  23 NOV 2017 11:08
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.216 seconds
+luaotfload | main : initialization completed in 0.203 seconds
 Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2249,21 +2249,21 @@ Language ngerman already loaded; id is 8)
 ] (./Theorie.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/
 otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gener
 ic/fonts/otl/lmroman6-regular.luc)
-<Bild1.jpg, id=49, pagebox=cropbox, 445.665pt x 140.77594pt>
+<Bild1.jpg, id=51, pagebox=cropbox, 445.665pt x 140.77594pt>
 File: Bild1.jpg Graphic file (type jpg)
 <use Bild1.jpg>
 Package luatex.def Info: Bild1.jpg  used on input line 17. on input line 17.
 Package luatex.def Info: Requested size: 418.25555pt x 132.11887pt on input line
  17.
  [3<./Bild1.jpg>]) (./Versuchsaufbau.tex
-<Bild2.jpg, id=62, pagebox=cropbox, 108.7814pt x 237.13594pt>
+<Bild2.jpg, id=64, pagebox=cropbox, 108.7814pt x 237.13594pt>
 File: Bild2.jpg Graphic file (type jpg)
 <use Bild2.jpg>
 Package luatex.def Info: Bild2.jpg  used on input line 7. on input line 7.
 Package luatex.def Info: Requested size: 142.2839pt x 284.53636pt on input line 
 7.
 ) (./Durchfuehrung.tex
-<Bild3.jpg, id=63, pagebox=cropbox, 394.85016pt x 193.0964pt>
+<Bild3.jpg, id=65, pagebox=cropbox, 394.85016pt x 193.0964pt>
 File: Bild3.jpg Graphic file (type jpg)
 <use Bild3.jpg>
 Package luatex.def Info: Bild3.jpg  used on input line 12. on input line 12.
@@ -2305,7 +2305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
 (load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-reg
 ular.luc) [6]
-<ausgleichsgerade1.pdf, id=82, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<ausgleichsgerade1.pdf, id=84, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: ausgleichsgerade1.pdf Graphic file (type pdf)
 <use ausgleichsgerade1.pdf>
 Package luatex.def Info: ausgleichsgerade1.pdf  used on input line 101. on input
@@ -2810,19 +2810,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
-
-
-Package rerunfilecheck Warning: File `Protokoll.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.aux':
-(rerunfilecheck)             Before: 02D0D49C66EFFFCDE5B0B8921688FEBE;10363
-(rerunfilecheck)             After:  8DDB4D46BC728EE5A538112DA64B5AA5;10664.
-
-Package rerunfilecheck Warning: File `Protokoll.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.toc':
-(rerunfilecheck)             Before: E555C684CB4012066F1315AB5A13C802;1383
-(rerunfilecheck)             After:  4D4B5116032317CD0A6A4F662DF9CE89;1449.
+Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
+(rerunfilecheck)             Checksum: 8DDB4D46BC728EE5A538112DA64B5AA5;10664.
+Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
+(rerunfilecheck)             Checksum: 4D4B5116032317CD0A6A4F662DF9CE89;1449.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
@@ -2834,9 +2825,9 @@ Here is how much of LuaTeX's memory you used:
  687 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 32 attribute, 77 glue_spec, 32 attr
 ibute_list, 1 write nodes
-   avail lists: 2:809,3:122,4:65,5:207,6:1631,7:633,8:71,9:373,10:17,11:189
+   avail lists: 2:809,3:122,4:65,5:253,6:2328,7:720,8:71,9:373,10:17,11:252
  43539 multiletter control sequences out of 65536+600000
- 109 fonts using 27472271 bytes
+ 109 fonts using 27472423 bytes
  61i,17n,104p,8838b,2393s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
@@ -2847,10 +2838,10 @@ f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf
 dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
 fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts
 /opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (17 pages, 248871 bytes).
+Output written on Protokoll.pdf (17 pages, 249719 bytes).
 
-PDF statistics: 283 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
+PDF statistics: 284 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  61 named destinations out of 1000 (max. 131072)
  121 words of extra memory for PDF output out of 10000 (max. 100000000)
 
