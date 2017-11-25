@@ -1,0 +1,27 @@
+\input{header.tex}
+\begin{document}
+\section{Auswertung}
+\subsection{Bestimmung der Zeitkonstante über Auf- und Entladungsvorgang}
+Zur Bestimmung der Zeitkonstante $RC$ werden die Messdaten wie in (\ref{tab:1})
+in ein Diagramm (\ref{fig:1}) dargestellt und mit Hilfe einer linearen Ausgleichsrechnung
+berechnet.
+\input{Tab1.tex}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Diagramm1.pdf}
+  \caption{Diagrammdarstellung}
+  \label{fig:1}
+\end{figure}
+Die Ausgleichsrechnungs allgemein lautet:
+\begin{align}
+  y & = m \cdot x + b \label{eq:1}\\
+  m & = \frac {\bar{xy} - \bar{x} \cdot \bar{y}} {\bar{x^2} -\bar{x}^2}&  \label{eq:2}\\
+  b & = \frac {\bar{y} \cdot \bar{x}^2 - \bar{xy} \cdot \bar{x}} {\bar{x^2}-\bar{x}^2}& \label{eq:3}
+\end{align}
+Für diese Ausgleichsrechnung wird die Formel (\ref{eq:1}) umgeschrieben und die erechnetet Werte lautetn: \\
+\newline
+\centerline{$ln(\frac{U_\text{c}}{U_\text{0}}) = -\frac{1}{m} + b$}\\
+\centerline{mit $m = (2,845 \pm 0,245) \cdot 10^{-3} \si{\second}$}\\
+\centerline{und $b = (-0,393 \pm 0,074)$}
+\newline
+\end{document}
