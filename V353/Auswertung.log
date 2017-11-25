@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  25 NOV 2017 11:48
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  25 NOV 2017 17:59
  restricted system commands enabled.
-**Auswertung.tex
-(./Auswertung.tex
+**auswertung.tex
+(./auswertung.tex
 LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.462 seconds
+luaotfload | main : initialization completed in 0.203 seconds
 Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2053,11 +2053,18 @@ Package biblatex Info: ... file 'german.lbx' found.
 (c:/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-(./Auswertung.aux
+(./auswertung.aux
 luatex-hyphen: loading patterns and exceptions for: german (\language4)
 luatex-hyphen: info: no hyphenation exceptions for this language
-Language ngerman already loaded; id is 8)
-\openout1 = Auswertung.aux
+Language ngerman already loaded; id is 8
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+)
+\openout1 = auswertung.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -2147,11 +2154,11 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 
-\openout4 = Auswertung.bcf
+\openout4 = auswertung.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Auswertung.bbl' not found.
+Package biblatex Info: ... file 'auswertung.bbl' not found.
 
-No file Auswertung.bbl.
+No file auswertung.bbl.
 Package biblatex Info: Reference section=0 on input line 2.
 Package biblatex Info: Reference segment=0 on input line 2.
 \AtBeginShipoutBox=\box58
@@ -2249,51 +2256,74 @@ Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
  [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 20--27
+
+LaTeX Warning: Reference `eq:1' on page 2 undefined on input line 21.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--27
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
-[2<./Diagramm1.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
- (./Auswertung.aux
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+(./Tab2.tex [2<./Diagramm1.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+ (./auswertung.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
-Package rerunfilecheck Info: File `Auswertung.aux' has not changed.
-(rerunfilecheck)             Checksum: 3A3BD752D9F15707DE4ED6B64E7C74CB;3551.
-Package logreq Info: Writing requests to 'Auswertung.run.xml'.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+Package rerunfilecheck Info: File `auswertung.aux' has not changed.
+(rerunfilecheck)             Checksum: 334E18BFE376A306EE0FF9E900D4EF12;4673.
 
-\openout1 = Auswertung.run.xml
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'auswertung.run.xml'.
+
+\openout1 = auswertung.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40276 strings out of 494472
+ 40291 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 571 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 72 glue_spec, 7 attrib
+ 575 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 8 attribute, 72 glue_spec, 8 attrib
 ute_list, 1 write nodes
-   avail lists: 1:2,2:603,3:62,4:12,5:82,6:852,7:674,8:57,9:191,10:9,11:58
- 43278 multiletter control sequences out of 65536+600000
- 98 fonts using 24540235 bytes
+   avail lists: 1:2,2:603,3:66,4:17,5:113,6:852,7:674,8:67,9:303,10:11,11:58
+ 43283 multiletter control sequences out of 65536+600000
+ 98 fonts using 24540367 bytes
  61i,15n,104p,8839b,1040s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/te
-xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/
-2017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2017/t
-exmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/te
-xmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texmf-dist
-/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/
-fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts
-/opentype/public/lm/lmsans10-bold.otf>
-Output written on Auswertung.pdf (2 pages, 38502 bytes).
+<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><
+c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/tex
+live/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2
+017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2017/te
+xmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/tex
+mf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texmf-dist/
+fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/f
+onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/
+opentype/public/lm/lmsans10-bold.otf>
+Output written on auswertung.pdf (3 pages, 42648 bytes).
 
-PDF statistics: 133 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 131072)
- 17 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 147 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 131072)
+ 25 words of extra memory for PDF output out of 10000 (max. 100000000)
 
