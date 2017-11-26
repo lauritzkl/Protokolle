@@ -5,7 +5,7 @@ from scipy.optimize import curve_fit
 y, x = np.genfromtxt('Tabelle3.txt', unpack=True)
 
 def f(x, a, b):
-    return (1-(1/a)) * x + b
+    return (-1/a)*x
 
 params, covariance_matrix = curve_fit(f, x, y)
 
@@ -15,8 +15,10 @@ plt.plot(x, y, 'kx',)
 plt.plot(x, f(x, *params), 'r-', label='Regression')
 #plt.xlabel('t / ms')
 #plt.ylabel('ln({Uc}/{U0})')
-#plt.xlim(1.5e-2, 9e-2)
-#plt.ylim(1.5e-3, 5e-3)
+#plt.xlim(0, 10e)
+plt.ylim(0, 1.75)
+plt.xscale('log')
+#plt.yscale('corner')
 plt.tight_layout(pad=0)
 plt.legend()
 plt.grid()
