@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  23 NOV 2017 15:47
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  27 NOV 2017 20:52
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.252 seconds
+luaotfload | main : initialization completed in 0.250 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2169,14 +2169,14 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout4 = Protokoll.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Protokoll.bbl' not found.
+Package biblatex Info: ... file 'Protokoll.bbl' found.
 
-No file Protokoll.bbl.
+(./Protokoll.bbl)
 Package biblatex Info: Reference section=0 on input line 14.
 Package biblatex Info: Reference segment=0 on input line 14.
 \AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring OFF on input line 14.
-(c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+ (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -2267,80 +2267,108 @@ Language ngerman already loaded; id is 8)
 \openout5 = Protokoll.toc
  [2
 
-] (./Theorie.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--36
+] (./Einleitung.tex) (./Theorie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--36
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
-<Schaltungsbeispiel.png, id=23, pagebox=cropbox, 427.5975pt x 223.58531pt>
+<Schaltungsbeispiel.png, id=29, pagebox=cropbox, 427.5975pt x 223.58531pt>
 File: Schaltungsbeispiel.png Graphic file (type png)
 <use Schaltungsbeispiel.png>
-Package luatex.def Info: Schaltungsbeispiel.png  used on input line 43. on input
- line 43.
+Package luatex.def Info: Schaltungsbeispiel.png  used on input line 42. on input
+ line 42.
 Package luatex.def Info: Requested size: 292.77855pt x 142.26506pt on input line
- 43.
+ 42.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
+) (./D.tex
+<D1.png, id=41, pagebox=cropbox, 528.47438pt x 193.47281pt>
+File: D1.png Graphic file (type png)
+<use D1.png>
+Package luatex.def Info: D1.png  used on input line 11. on input line 11.
+Package luatex.def Info: Requested size: 418.25624pt x 142.26427pt on input line
+ 11.
  [4<./Schaltungsbeispiel.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+<D2.png, id=52, pagebox=cropbox, 519.44063pt x 180.675pt>
+File: D2.png Graphic file (type png)
+<use D2.png>
+Package luatex.def Info: D2.png  used on input line 22. on input line 22.
+Package luatex.def Info: Requested size: 418.25584pt x 142.26576pt on input line
+ 22.
+<D4.png, id=53, pagebox=cropbox, 431.36156pt x 192.72pt>
+File: D4.png Graphic file (type png)
+<use D4.png>
+Package luatex.def Info: D4.png  used on input line 35. on input line 35.
+Package luatex.def Info: Requested size: 418.26881pt x 142.26355pt on input line
+ 35.
+ [5<./D1.png><./D2.png>]
+<D3.png, id=60, pagebox=cropbox, 621.07031pt x 216.05719pt>
+File: D3.png Graphic file (type png)
+<use D3.png>
+Package luatex.def Info: D3.png  used on input line 41. on input line 41.
+Package luatex.def Info: Requested size: 418.25668pt x 142.2685pt on input line 
+41.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
+ [6<./D4.png><./D3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
  (./Protokoll.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 6547F1A27F0667E4564A9AE2EA866522;1968.
+(rerunfilecheck)             Checksum: 153D5C55DC6446F8530174FE5C9C7333;3612.
 Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
-(rerunfilecheck)             Checksum: F5B94DCA0EC7700C60BD1CA49AA6C4D4;227.
+(rerunfilecheck)             Checksum: 97477EE655F8AC90B402583295B8932D;424.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40300 strings out of 494483
+ 40556 strings out of 494483
  100000,1648299 words of node,token memory allocated
- 632 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 22 attribute, 74 glue_spec, 22 attr
+ 642 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 22 attribute, 76 glue_spec, 22 attr
 ibute_list, 1 write nodes
-   avail lists: 2:243,3:115,4:32,5:232,6:2055,7:462,8:65,9:181,10:8,11:241
- 43279 multiletter control sequences out of 65536+600000
- 95 fonts using 24264127 bytes
- 61i,7n,104p,8838b,882s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
-ive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
-ve/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texliv
-e/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/201
-7/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/tex
-mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (4 pages, 46895 bytes).
+   avail lists: 2:261,3:124,4:27,5:221,6:1945,7:442,8:66,9:171,10:12,11:231
+ 43498 multiletter control sequences out of 65536+600000
+ 95 fonts using 24263863 bytes
+ 61i,7n,104p,8838b,2395s stack positions out of 5000i,500n,10000p,200000b,100000s
+<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
+xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
+17/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/201
+7/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017
+/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texm
+f-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dis
+t/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on Protokoll.pdf (6 pages, 126313 bytes).
 
-PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 131072)
- 9 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 128 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 100000000)
 
