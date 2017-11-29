@@ -5,7 +5,7 @@ from scipy.optimize import curve_fit
 y, x = np.genfromtxt('Tabelle3.txt', unpack=True)
 
 def f(x, a, b):
-    return (-1/a)*x
+    return np.arctan(a*x)
 
 params, covariance_matrix = curve_fit(f, x, y)
 

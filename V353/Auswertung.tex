@@ -1,8 +1,8 @@
-\input{header.tex}
+
 \begin{document}
 \section{Auswertung}
 \subsection{Bestimmung der Zeitkonstante über Auf- und Entladungsvorgang}
-Zur Bestimmung der Zeitkonstante $RC$ werden die Messdaten wie in (\ref{tab:1})
+Zur Bestimmung der Zeitkonstante $RC$ werden die Messdaten wie in Tabelle(\ref{tab:1})
 in ein Diagramm (\ref{fig:1}) dargestellt und mit Hilfe einer linearen Ausgleichsrechnung
 berechnet.
 \input{Tab1.tex}
@@ -18,7 +18,7 @@ Die Ausgleichsrechnungs allgemein lautet:
   m & = \frac {\bar{xy} - \bar{x} \cdot \bar{y}} {\bar{x^2} -\bar{x}^2}&  \label{eq:}\\
   b & = \frac {\bar{y} \cdot \bar{x}^2 - \bar{xy} \cdot \bar{x}} {\bar{x^2}-\bar{x}^2}& \label{eq:}
 \end{align}
-Für diese Ausgleichsrechnung wird die Formel (\ref{eq:1}) umgeschrieben und die erechnetet Werte lautetn: \\
+Für diese Ausgleichsrechnung wird die Formel (\ref{eq:1}) umgeschrieben und die erechnetet Werte lauten: \\
 \newline
 \centerline{$ln(\frac{U_\text{c}}{U_\text{0}}) = -\frac{1}{m} + b$}\\
 \newline
@@ -27,7 +27,7 @@ Für diese Ausgleichsrechnung wird die Formel (\ref{eq:1}) umgeschrieben und die
 \centerline{und $b = (-0,393 \pm 0,074)$}
 \newline
 \subsection{Bestimmung der Zeitkonstante über den Tiefpassvorgang}
-Dabei wird die Amplitude in Abhängigkeit von der Frequenz wie in der Tabelle 2 in
+Dabei wird die normierte Amplitude in Abhängigkeit von der Frequenz wie in der Tabelle 2 in
 einen Diagramm dargestellt.
 \input{Tab2.tex}
 \begin{figure}[H]
@@ -36,7 +36,7 @@ einen Diagramm dargestellt.
   \caption{Diagrammdarstellung}
   \label{fig:2}
 \end{figure}
-Für die nicht-lineare Ausgleichsrechnung wird die Gleichung () verwendet.
+Für die nicht-lineare Ausgleichsrechnung wird die Gleichung (7) verwendet.
 \begin{equation*}
   \frac{A}{U_0} = \frac{1}{\sqrt{1 + (\omega m)^2}}
 \end{equation*}
@@ -50,5 +50,51 @@ einer nicht-linearen Ausgleichsrechnung die Zeitkonstante bestimmt.
   \includegraphics[width=\textwidth]{Diagramm3.pdf}
   \caption{Diagrammdarstellung}
   \label{fig:3}
+\end{figure}
+Dabei wird die Gleichung () verwendet und umgeschrieben:
+\begin{equation*}
+  \phi= arctan(m*\omega)
+\end{equation*}
+\centerline{Dabei ist $m=(5,228 \pm \, \inf) \cdot 10^{-3} \si{\second}$}
+Nun wird die relative Amplitude in Abhängigkeit der Phase in einen Polarkoordinaten aufgetragen mit
+der vorhin ermittelten $RC-Wert = (5,228 \pm \, \inf) \cdot 10^{-3}$.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Polar.pdf}
+  \label{fig:4}
+\end{figure}
+\subsection{Integrator}
+In diesem Fall wird die Gleichung () verwendet. \\
+\centerline{1.Fall Sinusspannung}
+\begin{equation*}
+  $f(x) = A * sin(x) \rightarrow F(x)= - A * cos(x)$
+\end{equation*}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Sinusspannung.BMP}
+  \label{fig:5}
+\end{figure}
+Man erkennt auf dem Thermodruck das die Integration über die Funktion f(x) die
+Stammfunktion F(x) ergibt.
+2. Fall Dreieckspannun
+\begin{equation*}
+  f(x) =
+  \begin{cases}
+    c \cdot x \. \text{für} \. $-a \leq x \leq a$ \\
+  - c \cdot x \. \text{für} \. $a \leq x \leq 3a$
+  \end{cases}
+\end{equation*}
+Die Integrationen für diese Funktion f(x) lautet:
+\begin{equation*}
+  F(x)
+  \begin{cases}
+    \frac{c}{2} x^2 \text{für} -a \leg x \leg a \\
+    \frac{-c}{2} x^2 \text{für} a \leg x \leg 3a
+  \end{cases}
+\end{equation*}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Dreieckspannung.BMP}
+  \label{fig:6}
 \end{figure}
 \end{document}

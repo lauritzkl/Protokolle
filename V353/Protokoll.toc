@@ -4,4 +4,8 @@
 \contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}
 \contentsline {section}{\numberline {3}Durchführung}{4}{section.3}
-\contentsline {section}{\nonumberline Literatur}{6}{section*.7}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bestimmung der Zeitkonstante über Auf- und Entladungsvorgang}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Bestimmung der Zeitkonstante über den Tiefpassvorgang}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Bestimmung der Zeitkonstante mit Hilfe der Phasenverschiebung}{10}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Integrator}{13}{subsection.4.4}
