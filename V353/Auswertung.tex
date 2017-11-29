@@ -2,20 +2,20 @@
 \section{Auswertung}
 \subsection{Bestimmung der Zeitkonstante über Auf- und Entladungsvorgang}
 Zur Bestimmung der Zeitkonstante $RC$ werden die Messdaten wie in Tabelle(\ref{tab:1})
-in ein Diagramm (\ref{fig:1}) dargestellt und mit Hilfe einer linearen Ausgleichsrechnung
+in ein Diagramm (\ref{fig:6}) dargestellt und mit Hilfe einer linearen Ausgleichsrechnung
 berechnet.
 \input{Tab1.tex}
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{Diagramm1.pdf}
   \caption{Diagrammdarstellung}
-  \label{fig:1}
+  \label{fig:6}
 \end{figure}
 Die Ausgleichsrechnungs allgemein lautet:
 \begin{align}
-  y & = m \cdot x + b \label{eq:}\\
-  m & = \frac {\bar{xy} - \bar{x} \cdot \bar{y}} {\bar{x^2} -\bar{x}^2}&  \label{eq:}\\
-  b & = \frac {\bar{y} \cdot \bar{x}^2 - \bar{xy} \cdot \bar{x}} {\bar{x^2}-\bar{x}^2}& \label{eq:}
+  y & = m \cdot x + b \label{eq:9}\\
+  m & = \frac {\bar{xy} - \bar{x} \cdot \bar{y}} {\bar{x^2} -\bar{x}^2}&  \label{eq:10}\\
+  b & = \frac {\bar{y} \cdot \bar{x}^2 - \bar{xy} \cdot \bar{x}} {\bar{x^2}-\bar{x}^2}& \label{eq:11}
 \end{align}
 Für diese Ausgleichsrechnung wird die Formel (\ref{eq:1}) umgeschrieben und die erechnetet Werte lauten: \\
 \newline
@@ -25,74 +25,91 @@ Für diese Ausgleichsrechnung wird die Formel (\ref{eq:1}) umgeschrieben und die
 \newline
 \centerline{und $b = (-0,393 \pm 0,074)$}
 \newline
+Dabei ist $m$ die Zeitkonstante $RC$.
 \subsection{Bestimmung der Zeitkonstante über den Tiefpassvorgang}
-Dabei wird die normierte Amplitude in Abhängigkeit von der Frequenz wie in der Tabelle 2 in
+Dabei wird die normierte Amplitude in Abhängigkeit von der Frequenz wie in der Tabelle(\ref{tab:2}) in
 einen Diagramm dargestellt.
 \input{Tab2.tex}
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{Diagramm2.pdf}
   \caption{Diagrammdarstellung}
-  \label{fig:2}
+  \label{fig:7}
 \end{figure}
-Für die nicht-lineare Ausgleichsrechnung wird die Gleichung (7) verwendet.
+Für die nicht-lineare Ausgleichsrechnung wird die Gleichung (\ref{eq:7}) verwendet.
 \begin{equation*}
   \frac{A}{U_0} = \frac{1}{\sqrt{1 + (\omega m)^2}}
 \end{equation*}
 \centerline{mit $m = (4,46 \pm \, 0.07) \cdot 10^{-3} \si{\second}$}
+Wie vorhin ist $m$ die Zeitkonstante $RC$
 \subsection{Bestimmung der Zeitkonstante mit Hilfe der Phasenverschiebung}
-Es werden die Daten von der Tabelle 3 in einen Diagramm dargestellt und mit Hilfe
+Es werden die Daten von der Tabelle(\ref{tab:3}) in einen Diagramm dargestellt und mit Hilfe
 einer nicht-linearen Ausgleichsrechnung die Zeitkonstante bestimmt.
 \input{Tab3.tex}
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{Diagramm3.pdf}
   \caption{Diagrammdarstellung}
-  \label{fig:3}
+  \label{fig:8}
 \end{figure}
-Dabei wird die Gleichung () verwendet und umgeschrieben:
+Dabei wird die Gleichung (\ref{eq:6}) verwendet und umgeschrieben:
 \begin{equation*}
   \phi= arctan(m*\omega)
 \end{equation*}
-\centerline{Dabei ist $m=(5,228 \pm \, \inf) \cdot 10^{-3} \si{\second}$}
+\centerline{Dabei ist $m=(5,228 \pm \, \inf) \cdot 10^{-3} \si{\second}$} \\
+Wie auch hier ist $m$ die Zeitkonstante $RC$.\\
 Nun wird die relative Amplitude in Abhängigkeit der Phase in einen Polarkoordinaten aufgetragen mit
-der vorhin ermittelten $RC-Wert = (5,228 \pm \, \inf) \cdot 10^{-3}$.
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[width=\textwidth]{Polar.pdf}
-%  \label{fig:4}
-%\end{figure}
+den vorhin ermittelten $RC-Wert = (5,228 \pm \, \inf) \cdot 10^{-3}$.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Polar.pdf}
+  \caption{Polarkoordinatendarstellung}
+  \label{fig:9}
+\end{figure}
 \subsection{Integrator}
-In diesem Fall wird die Gleichung () verwendet. \\
+In diesem Fall wird die Gleichung (\ref{eq:8}) verwendet. \\
 \centerline{1.Fall Sinusspannung}
 \begin{equation*}
-  $f(x) = A * sin(x) \rightarrow F(x)= - A * cos(x)$
+  f(x) = A * sin(x) \rightarrow F(x)= - A * cos(x)
 \end{equation*}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{Sinusspannung.BMP}
-  \label{fig:5}
+  \includegraphics[width=\textwidth]{sinus.png}
+  \caption{Thermodruck von der Sinusspannung}
+  \label{fig:10}
 \end{figure}
-Man erkennt auf dem Thermodruck das die Integration über die Funktion f(x) die
-Stammfunktion F(x) ergibt.
-2. Fall Dreieckspannung
-\begin{equation*}
-  f(x) =
-  \begin{cases}
-    c \cdot x \. \text{für} \. $-a \leq x \leq a$ \\
-  - c \cdot x \. \text{für} \. $a \leq x \leq 3a$
-  \end{cases}
-\end{equation*}
-Die Integrationen für diese Funktion f(x) lautet:
-\begin{equation*}
-  F(x)
-  \begin{cases}
-    \frac{c}{2} x^2 \text{für} -a \leg x \leg a \\
-    \frac{-c}{2} x^2 \text{für} a \leg x \leg 3a
-  \end{cases}
-\end{equation*}
+Auf dem Thermodruck zeigt, dass die Integration über die Funktion f(x) die
+Stammfunktion F(x) ergibt.\\
+\centerline{2. Fall Dreieckspannung}
+\begin{align*}
+  f_1 (x) = c \cdot x \, \text{für} \, -a \leq x \leq a \\
+  f_2 (x) =-c \cdot x \, \text{für} \, a \leq x \leq 3a \\
+\end{align*}
+Die Integrationen für diese Funktion f(x) lauten:
+\begin{align*}
+  F_1 (x) = \frac{c}{2} \cdot x^{2} \, \text{für} \,-a \leq x \leq a \\
+  F_2 (x) = -\frac{c}{2} \cdot x^{2} \, \text{für} \, a \leq x \leq 3a \\
+\end{align*}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{Dreieckspannung.BMP}
-  \label{fig:6}
+  \includegraphics[width=\textwidth]{Dr1.png}
+  \caption{Thermodruck von der Dreieckspannung}
+  \label{fig:11}
 \end{figure}
+Der Thermodruck zeigt auch hier das die Funktion f(x) die Stammfunktion F(x) ergibt.\\\\
+\centerline{3.Fall Rechteckspannung}
+\begin{align*}
+f_1 (x) =  c \, \text{für} \, 0 \leq x \leq a \\
+f_2 (x) =  -c \, \text{für} \, a\leq x \leq 2a
+\end{align*}
+Durch Integration über die Funktion $f_1 (x)$ und $f_2 (x)$ ergibt sich:
+\begin{align*}
+  F_1 (x) =  c\cdot x \, \text{für} \, 0 \leq x \leq a \\
+  F_2 (x) =  -c\cdot x \, \text{für} \, a\leq x \leq 2a
+\end{align*}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Re.png}
+  \caption{Thermodruck von der Rechteckspannung}
+  \label{fig:12}
+ \end{figure}

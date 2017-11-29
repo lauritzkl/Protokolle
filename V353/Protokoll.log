@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  29 NOV 2017 11:25
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  29 NOV 2017 20:00
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.203 seconds
+luaotfload | main : initialization completed in 0.219 seconds
 Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2055,14 +2055,7 @@ File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 ) (./Protokoll.aux
 luatex-hyphen: loading patterns and exceptions for: german (\language4)
 luatex-hyphen: info: no hyphenation exceptions for this language
-Language ngerman already loaded; id is 8
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-)
+Language ngerman already loaded; id is 8)
 \openout1 = Protokoll.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -2246,76 +2239,67 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 Package tocbasic Info: character protrusion at toc deactivated on input line 17.
 
 
-(./Protokoll.toc)
+(./Protokoll.toc
+Language ngerman already loaded; id is 8)
 \tf@toc=\write5
 
 \openout5 = Protokoll.toc
  [2
 
 ] (./Einleitung.tex) (./Theorie.tex
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
-<Schaltungsbeispiel.png, id=20, pagebox=cropbox, 427.5975pt x 223.58531pt>
+<Schaltungsbeispiel.png, id=41, pagebox=cropbox, 427.5975pt x 223.58531pt>
 File: Schaltungsbeispiel.png Graphic file (type png)
 <use Schaltungsbeispiel.png>
-Package luatex.def Info: Schaltungsbeispiel.png  used on input line 42. on input
- line 42.
+Package luatex.def Info: Schaltungsbeispiel.png  used on input line 44. on input
+ line 44.
 Package luatex.def Info: Requested size: 292.77855pt x 142.26506pt on input line
- 42.
+ 44.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 ) (./D.tex
-<D1.png, id=34, pagebox=cropbox, 528.47438pt x 193.47281pt>
+<D1.png, id=59, pagebox=cropbox, 528.47438pt x 193.47281pt>
 File: D1.png Graphic file (type png)
 <use D1.png>
 Package luatex.def Info: D1.png  used on input line 11. on input line 11.
 Package luatex.def Info: Requested size: 418.25624pt x 142.26427pt on input line
  11.
  [4<./Schaltungsbeispiel.png>]
-<D2.png, id=47, pagebox=cropbox, 519.44063pt x 180.675pt>
+<D2.png, id=73, pagebox=cropbox, 519.44063pt x 180.675pt>
 File: D2.png Graphic file (type png)
 <use D2.png>
-Package luatex.def Info: D2.png  used on input line 22. on input line 22.
+Package luatex.def Info: D2.png  used on input line 23. on input line 23.
 Package luatex.def Info: Requested size: 418.25584pt x 142.26576pt on input line
- 22.
-<D4.png, id=48, pagebox=cropbox, 431.36156pt x 192.72pt>
+ 23.
+<D4.png, id=75, pagebox=cropbox, 431.36156pt x 192.72pt>
 File: D4.png Graphic file (type png)
 <use D4.png>
-Package luatex.def Info: D4.png  used on input line 35. on input line 35.
+Package luatex.def Info: D4.png  used on input line 37. on input line 37.
 Package luatex.def Info: Requested size: 418.26881pt x 142.26355pt on input line
- 35.
+ 37.
  [5<./D1.png><./D2.png>]
-<D3.png, id=55, pagebox=cropbox, 621.07031pt x 216.05719pt>
+<D3.png, id=83, pagebox=cropbox, 621.07031pt x 216.05719pt>
 File: D3.png Graphic file (type png)
 <use D3.png>
-Package luatex.def Info: D3.png  used on input line 41. on input line 41.
+Package luatex.def Info: D3.png  used on input line 44. on input line 44.
 Package luatex.def Info: Requested size: 418.25668pt x 142.2685pt on input line 
-41.
+44.
 )
 (./Auswertung.tex (./Tab1.tex
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
@@ -2327,7 +2311,7 @@ ular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
 oman5-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/font
 s/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gen
 eric/fonts/otl/lmroman6-regular.luc))
-<Diagramm1.pdf, id=58, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<Diagramm1.pdf, id=87, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: Diagramm1.pdf Graphic file (type pdf)
 <use Diagramm1.pdf>
 Package luatex.def Info: Diagramm1.pdf  used on input line 10. on input line 10.
@@ -2335,76 +2319,119 @@ Package luatex.def Info: Diagramm1.pdf  used on input line 10. on input line 10.
 Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
  10.
  [6<./D4.png><./D3.png>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 19--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
 (./Tab2.tex [8<./Diagramm1.pdf>])
-<Diagramm2.pdf, id=115, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<Diagramm2.pdf, id=142, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: Diagramm2.pdf Graphic file (type pdf)
 <use Diagramm2.pdf>
-Package luatex.def Info: Diagramm2.pdf  used on input line 34. on input line 34.
+Package luatex.def Info: Diagramm2.pdf  used on input line 35. on input line 35.
 
 Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
- 34.
+ 35.
  [9] (./Tab3.tex)
-<Diagramm3.pdf, id=122, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<Diagramm3.pdf, id=151, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: Diagramm3.pdf Graphic file (type pdf)
 <use Diagramm3.pdf>
-Package luatex.def Info: Diagramm3.pdf  used on input line 49. on input line 49.
+Package luatex.def Info: Diagramm3.pdf  used on input line 51. on input line 51.
 
 Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
- 49.
+ 51.
  [10<./Diagramm2.pdf>]
 [11]
-! Display math should end with $$.
-<to be read again> 
-f
-l.69   $f
-       (x) = A * sin(x) \rightarrow F(x)= - A * cos(x)$
-? x
+<Polar.pdf, id=186, pagebox=cropbox, 462.52798pt x 346.89601pt>
+File: Polar.pdf Graphic file (type pdf)
+<use Polar.pdf>
+Package luatex.def Info: Polar.pdf  used on input line 65. on input line 65.
+Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
+ 65.
+ [12<./Diagramm3.pdf>]
+<sinus.png, id=222, pagebox=cropbox, 151.3153pt x 95.9836pt>
+File: sinus.png Graphic file (type png)
+<use sinus.png>
+Package luatex.def Info: sinus.png  used on input line 77. on input line 77.
+Package luatex.def Info: Requested size: 418.25555pt x 265.31482pt on input line
+ 77.
+ [13<./Polar.pdf>]
+<Dr1.png, id=264, pagebox=cropbox, 151.3153pt x 95.9836pt>
+File: Dr1.png Graphic file (type png)
+<use Dr1.png>
+Package luatex.def Info: Dr1.png  used on input line 95. on input line 95.
+Package luatex.def Info: Requested size: 418.25555pt x 265.31482pt on input line
+ 95.
+ [14<./sinus.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
+ []
+
+<Re.png, id=270, pagebox=cropbox, 151.3153pt x 95.9836pt>
+File: Re.png Graphic file (type png)
+<use Re.png>
+Package luatex.def Info: Re.png  used on input line 112. on input line 112.
+Package luatex.def Info: Requested size: 418.25555pt x 265.31482pt on input line
+ 112.
+) (./Diskussion.tex [15<./Dr1.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+ [16<./Re.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+ (./Protokoll.aux
+Language ngerman already loaded; id is 8)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+
+
+Package rerunfilecheck Warning: File `Protokoll.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `Protokoll.aux':
+(rerunfilecheck)             Before: 4410F4A5DBE0194EAD38C86D86C8C81D;10867
+(rerunfilecheck)             After:  870A5777BBC05532573BB57CDE53DB55;10934.
+Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
+(rerunfilecheck)             Checksum: ED86ACE2D3E52C56D9F3AA261FCB134B;1005.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package logreq Info: Writing requests to 'Protokoll.run.xml'.
+
+\openout1 = Protokoll.run.xml
+)
 
 Here is how much of LuaTeX's memory you used:
- 40476 strings out of 494472
- 100000,1648299 words of node,token memory allocated 5124 words of node memory still in use:
-   36 hlist, 3 vlist, 8 rule, 48 disc, 7 local_par, 2 dir, 6 math, 115 glue, 37 
-kern, 29 penalty, 5 margin_kern, 375 glyph, 68 attribute, 74 glue_spec, 68 attri
-bute_list, 3 write, 2 pdf_dest, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+ 40739 strings out of 494472
+ 100000,1648299 words of node,token memory allocated
+ 672 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 26 attribute, 77 glue_spec, 26 attr
+ibute_list, 1 write nodes
+   avail lists: 2:665,3:131,4:26,5:221,6:2024,7:788,8:71,9:311,10:10,11:242
+ 43599 multiletter control sequences out of 65536+600000
+ 110 fonts using 27564771 bytes
+ 61i,15n,104p,8838b,2395s stack positions out of 5000i,500n,10000p,200000b,100000s
+<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
+xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/texlive/
+2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/t
+exmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2017/texmf-d
+ist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-di
+st/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texmf-dist/fonts
+/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/
+opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/o
+pentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/openty
+pe/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/pu
+blic/lm/lmsans10-bold.otf>
+Output written on Protokoll.pdf (16 pages, 204066 bytes).
 
-   avail lists: 2:573,3:90,4:21,5:182,6:1562,7:668,8:62,9:281,10:10,11:183
- 43374 multiletter control sequences out of 65536+600000
- 110 fonts using 27564467 bytes
- 61i,15n,104p,8838b,1038s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/te
-xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/
-2017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2017/t
-exmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/te
-xmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texmf-dist
-/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/
-fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/f
-onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/
-opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opent
-ype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (11 pages, 151726 bytes).
-
-PDF statistics: 223 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 388 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 131072)
+ 81 words of extra memory for PDF output out of 10000 (max. 100000000)
 
