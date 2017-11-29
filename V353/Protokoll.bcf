@@ -2143,5 +2143,3 @@
     <bcf:datasource type="file" datatype="bibtex">lit.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-  </bcf:section>
-</bcf:controlfile>
