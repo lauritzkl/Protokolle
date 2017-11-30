@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}Bestimmung der Zeitkonstante über Auf- und Entladungsvorgang}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Bestimmung der Zeitkonstante über den Tiefpassvorgang}{9}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Bestimmung der Zeitkonstante mit Hilfe der Phasenverschiebung}{10}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Integrator}{13}{subsection.4.4}
-\contentsline {section}{\numberline {5}Diskussion}{16}{section.5}
-\contentsline {section}{\nonumberline Literatur}{16}{section*.17}
+\contentsline {subsection}{\numberline {4.3}Bestimmung der Zeitkonstante mit Hilfe der Phasenverschiebung}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Integrator}{14}{subsection.4.4}
+\contentsline {section}{\numberline {5}Diskussion}{17}{section.5}
+\contentsline {section}{\nonumberline Literatur}{17}{section*.18}

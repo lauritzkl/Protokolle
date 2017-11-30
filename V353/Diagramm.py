@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from scipy.optimize import curve_fit
 
 y, x = np.genfromtxt('Tabelle.txt', unpack=True)
@@ -13,7 +13,8 @@ errors = np.sqrt(np.diag(covariance_matrix))
 
 plt.plot(x, y, 'kx',)
 plt.plot(x, f(x, *params), 'r-', label='Regression')
-#plt.xlabel('t / ms')
+plt.xlabel('t / ms')
+plt.ylabel('$ln(U/U_0)$')
 #plt.yscale('log')
 #plt.xlim(1.5e-2, 9e-2)
 #plt.ylim(1.5e-3, 5e-3)
