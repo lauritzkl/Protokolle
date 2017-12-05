@@ -217,3 +217,135 @@ Wert:
 \end{equation*}
 
 Die Abweichung ist damit $18,32\% $.
+
+Aus der Abbildung (\ref{fig:8}) lässt sich auch die Breite der Kurve bestimmen, wenn sie
+um den Faktor $\frac{1}{\sqrt{2}}$ abgefallen ist. In Abbildung (\ref{fig:9}) ist das
+graphisch dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \caption{Graphische Darstellung der Messwerte und der Breite der Resonanzkurve.}
+  \includegraphics[width=\textwidth]{plot3.pdf}
+  \label{fig:9}
+\end{figure}
+
+Aus dem Graphen lässt sich dann die Breite berechnen:
+
+\begin{equation*}
+  \omega_+ - \omega_- = 42000 \si{\Hz} - 28000 \si{\Hz} = 14 \si{\kilo\Hz}
+\end{equation*}
+
+Mit der Gleichung () wird nun die Breite auch theoretisch bestimmt. Daraus ergibt sich
+
+\begin{equation*}
+  \omega_+ - \omega_- = \SI{12250(100)}{\Hz}
+\end{equation*}
+
+Der Fehler der Breite im theoretischen Fall ergibt sich zu:
+
+\begin{equation*}
+  \Delta(\omega_+ - \omega_-) = \sqrt{\left(\frac{1}{L2\pi} \cdot \Delta R \right)^2 +
+  \left(\frac{-R}{L^22\pi} \cdot \Delta L\right)^2}
+\end{equation*}
+
+Die Abweichung zwischen den Werten beträgt $14,29 \% $.\\\\
+
+Als letztes wird die Phasenverschiebung \phi bei einer erzwungenen Schwingung untersucht.
+In der Abbildung (\ref{fig:10}) ist der Verlauf der Phasenverschiebung in einem
+halblogarithmischen Diagramm dargestellt. Die Messwerte für den Graphen wurden aus
+Tabelle (\ref{tab:3}) entnommen.
+
+\begin{figure}[H]
+  \centering
+  \caption{Darstellung der Messwerte für die Phasenverschiebung.}
+  \includegraphics[width=\textwidth]{plot4.pdf}
+  \label{fig:10}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \caption{Messwerte der Phasenverschiebung bei einer erzwungenen Schwingung.}
+  \label{tab:3}
+  \begin{tabular}{c c}
+    \toprule
+    $\phi /$ rad & $ \omega / \si{\Hz}$ \\
+    \midrule
+    0,226 &  15000 \\
+    0,201 &  20000 \\
+    0,377 &  25000 \\
+    0,606 &  30000 \\
+    0,707 &  31000 \\
+    0,886 &  32000 \\
+    0,992 &  33000 \\
+    1,119 &  34000 \\
+    1,222 &  35000 \\
+    1,457 &  36000 \\
+    1,663 &  37000 \\
+    1,809 &  38000 \\
+    1,963 &  39000 \\
+    2,218 &  40000 \\
+    2,412 &  45000 \\
+    2,666 &  50000 \\
+    3,033 &  55000 \\
+    2,725 &  60000 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Nun werden die Messwerte noch linear in Abbildung (\ref{fig:11}) dargestellt, um die Resonanzfrequenz zu bestimmen.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{plot5.pdf}
+  \caption{Lineare Darstellung der Messwerte zur Bestimmung der Resonanzfrequenz und der
+  Breite der Kurve.}
+  \label{fig:11}
+\end{figure}
+
+Aus der Abbildung (\ref{fig:11}) lässt sich nun die Resonanzfrequenz bestimmen.
+
+\begin{equation*}
+  \omega_r = 36500 \si{\Hz}
+\end{equation*}
+
+Diese wird nun wieder theoretisch mit der Gleichung (eq:6) bestimmt. Daraus ergibt sich
+$\omega_r = \SI{36820(160)}{\Hz}$.
+
+Die Formel für den Fehler lautet in diesem Fall:
+
+\begin{equation*}
+  \Delta \omega_r = \sqrt{\left( \frac{1}{\pi}\left( \frac{-1}{L^2C} + \frac{R^2}{L^3}\right)
+  \left(\frac{1}{LC} - \frac{R^2}{2L^2}\right)^{\frac{-1}{2}} \cdot \Delta L\right)^2 +
+  \left(\frac{1}{\pi} \frac{-R}{L^2} \left(\frac{1}{LC} - \frac{R^2}{2L^2}\right)^{\frac{-1}{2}} \cdot \Delta R \right)^2 }
+\end{equation*}
+
+Somit ist die Abweichung in diesem Fall $0,87 \% $.
+
+Auch die Breite der Resonanzkurve lässt sich aus der Abbildung (\ref{fig:11}) entnehmen.
+
+\begin{itemize}
+  \item $\omega_1 = 31500 \si{\Hz}$
+  \item $\omega_2 = 42000 \si{\Hz}$
+\end{itemize}
+
+Nun werden auch diese Werte erneut theoretisch mithilfe der Gleichung () bestimmt.
+Der Fehler wird erneut mit der Gauß´schen Fehlerfortpflanzung berechnet und ist für beide
+Rechnungen gleich:
+
+\begin{equation*}
+  \Delta \omega_{1,2} = \frac{1}{2\pi} \sqrt{\left( \pm \frac{1}{2L} + \frac{R}{2L^2}
+  \left(\frac{R^2}{4L^2}+\frac{1}{LC}\right)^{\frac{-1}{2}} \Delta R \right)^2 +
+  \left(\mp \frac{R}{2L^2} + \left( \frac{-R^2}{2L^2} - \frac{1}{L^2C}\right)
+  \left(\frac{R^2}{4L^2}+\frac{1}{LC}\right)^{\frac{-1}{2}} \Delta L \right)^2 +
+  \left( \frac{-1}{LC^2} \left(\frac{R^2}{4L^2}+
+  \frac{1}{LC}\right)^{\frac{-1}{2}} \Delta C \right)^2}
+\end{equation*}
+
+Somit lauten die theoretisch berechneten Werten von $\omega_1$ und $\omega_2$:
+
+\begin{itemize}
+  \item \SI{32200(130)}{\Hz}
+  \item \SI{44440(230)}{\Hz}
+\end{itemize}
+
+Die Abweichungen sind damit für $\omega_1 = 2,17 \% $ und für $\omega_2 = 5,49 \% $.

@@ -17,7 +17,7 @@ y, x= np.genfromtxt('Data2.txt', unpack=True)
 
 plt.plot(x, y, r'kx', label=r'Messwerte')
 plt.axhline(1.784, color='green', linestyle=':')
-plt.axvline(26000, color='blue', linestyle=':', label='Breite')
+plt.axvline(28000, color='blue', linestyle=':', label='Breite')
 plt.axvline(42000, color='blue', linestyle=':')
 plt.xlabel('$\omega / \si{Hz}$')
 plt.ylabel('$U/U_0$')
