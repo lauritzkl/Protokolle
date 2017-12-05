@@ -5,9 +5,9 @@ Bevor die Trägheitsmomente der verschiedenen Körper bestimmt werden können m�
 Apparatekonstanten bestimmt werden. Das ist zum einen die Winkelrichtgröße D und
 das Trägheitsmoment der Drillachse $I_D$.
 
-Die Winkelrichtgröße wird mithilfe der Gleichung (4) bestimmt. Die Kraft wird im Abstand
+Die Winkelrichtgröße wird mithilfe der Gleichung (\ref{eq:3}) bestimmt. Die Kraft wird im Abstand
 von $r = \SI{4.3}{\centi\meter} = \SI{4.3e-2}{\meter}$ gemessen.
-Die entsprechenden Ergebnisse sind in Tabelle 1 zu sehen.
+Die entsprechenden Ergebnisse sind in Tabelle (\ref{fig:tab1}) zu sehen.
 
 \begin{table}[H]
   \centering
@@ -29,22 +29,26 @@ Die entsprechenden Ergebnisse sind in Tabelle 1 zu sehen.
     200 & $\frac{10\pi}{9}$ &   2 & 2,46 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab1}
 \end{table}
 
 Der Mittelwert von D und der zugehörige Fehler der Winkelrichtgrößen wird nun mit
 folgenden Gleichungen bestimmt:\\\\
-
-\begin{gather}
-  \bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i \\
+\begin{equation}
+    \bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i
+    \label{eq:4}
+\end{equation}
+\begin{equation}
   \Delta \bar{x} = \frac{1}{\sqrt{N}\sqrt{N-1}} \sqrt{\sum_{i}(x_i-\bar{x})^2}
-\end{gather}
+  \label{eq:5}
+\end{equation}
 
 Damit ergibt sich für die Winkelrichtgröße:
 
 \centerline{$\bar{D} = \num{2.388(39)e-2} Nm$}
 
 Nun muss noch das Trägheitsmoment der Drillachse bestimmt werden. Dazu muss
-die Gleichung (3) für diesen Fall noch angepasst werden, da sich das gesamte
+die Gleichung (\ref{eq:2}) für diesen Fall noch angepasst werden, da sich das gesamte
 Trägheitsmoment aus dem der Drillachse und der zwei Massen zusammensetzt:
 
 $I = I_D + 2(I_{zh} + ma^2) = I_D + 2(m \left( \frac{d^2}{16} + \frac{h^2}{12} \right)
@@ -62,17 +66,18 @@ Damit ergibt sich für das Trägheitsmoment der Massen:
 
 \centerline{$I_{zh} = \SI{3.37e-5}{\kilo\gram\meter\squared}$}
 
-Durch Umformung der Gleichung (3) folgt:
+Durch Umformung der Gleichung (\ref{eq:2}) folgt:
 
 %$ \implies T^2 = 4 \pi^2 \frac{I}{D} = \frac{4\pi^2}{D}(I_D + 2(I_{zh} + ma^2))$\\
 \begin{equation}
   T^2 = \frac{8\pi^2m}{D} a^2 + \frac{8\pi^2}{D} I_{zh} + \frac{4\pi^2}{D} I_D
+  \label{eq:6}
 \end{equation}
 
 
 Das Trägheitsmoment der Drillachse wird nun mit einer Ausgleichsrechnung bestimmt.
 Die Ausgleichsrechnung wird mit Python 3.6 durchgeführt. Die Daten für die Ausgleichsrechnung
-sind in Tabelle 2 dargestellt und in Abbilgung 4 graphisch gezeigt.
+sind in Tabelle (\ref{fig:tab2}) dargestellt und in Abbilgung (\ref{fig:Abb4} graphisch gezeigt.
 
 \begin{table}
   \centering
@@ -94,6 +99,7 @@ sind in Tabelle 2 dargestellt und in Abbilgung 4 graphisch gezeigt.
     7,4  & 26.5 & 54,76 &  702,25 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab2}
 \end{table}
 
 \begin{figure}[H]
@@ -101,12 +107,14 @@ sind in Tabelle 2 dargestellt und in Abbilgung 4 graphisch gezeigt.
   \includegraphics[width=\textwidth]{ausgleichsgerade1.pdf}
   \caption{Graphische Darstellung der Messwerte und der Ausgleichsgeraden zur bestimmung
   des Eigenträgheitsmomentes.}
+  \label{fig:Abb4}
 \end{figure}
 
 Damit ergeben sich die Parameter der Ausgleichsgeraden zu der Form:
 
 \begin{equation}
   y = m'x + b
+  \label{eq:7}
 \end{equation}
 
 \begin{itemize}
@@ -114,13 +122,17 @@ Damit ergeben sich die Parameter der Ausgleichsgeraden zu der Form:
   \item $b = \SI{3.571(658)}{\second\squared}$
 \end{itemize}
 
-Durch Vergleichen der Gleichungen (7) und (8) lässt sich das Trägheitsmoment der
+Durch Vergleichen der Gleichungen (\ref{eq:5}) und (\ref{eq:6}) lässt sich das Trägheitsmoment der
 Drillachse und die Winkelrichtgröße bestimmen:
 
-\begin{gather}
-  D_2 = \frac{8\pi^2m}{m'} \\
+\begin{equation}
+  D_2 = \frac{8\pi^2m}{m'}
+  \label{eq:8}
+\end{equation}
+\begin{equation}
   I_D = \frac{D_2}{4\pi^2}b - 2I_{zh}
-\end{gather}
+  \label{eq:9}
+\end{equation}
 
 Der Fehler der neu bestimmten Winkelrichtgröße wird mit der Gauß`schen Fehlerfortpflanzung
 bestimmt:\\\\
@@ -141,7 +153,7 @@ $\Delta I_D = \sqrt{\left(\frac{b}{4\pi^2} \cdot \Delta D_2 \right)^2 +
 \centerline{$I_D = \SI{2.154(414)e-3}{\kilo\gram\meter\squared}$}
 
 Mit den Apparatekonstanten kann nun das Trägheitsmoment von verschiedenen Körpern
-mithilfe der Gleichung (3) bestimmt werden.
+mithilfe der Gleichung (\ref{eq:2}) bestimmt werden.
 
 
 \subsection{Trägheitsmoment Kugel}
@@ -152,6 +164,7 @@ Dann ergibt sich das Trägheitsmoment zu:
 
 \begin{equation}
   I_k = \frac{\bar{D}}{4\pi^2}\bar{T}^2 - I_D
+  \label{eq:9}
 \end{equation}
 
 \begin{table}[H]
@@ -168,22 +181,24 @@ Dann ergibt sich das Trägheitsmoment zu:
     1,49 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab3}
 \end{table}
 
 Der Mittelwert der Schwingungsdauer mit der zugehörigen Standardabweichung
-wird mit den Gleichungen (5) und (6) bestimmt.
+wird mit den Gleichungen (\ref{eq:4}) und (\ref{eq:5}) bestimmt.
 
  Somit ist der Mittelwert von den gemessenen T-Werten:\\\\
 
  \centerline{$\bar{T} = \SI{1.562(48)}{\second}$}\ \\
 
- Mit der Gleichung (11) lässt sich dann das Trägheitsmoment der Kugel bestimmen. Der
+ Mit der Gleichung (\ref{eq:9}) lässt sich dann das Trägheitsmoment der Kugel bestimmen. Der
  zugehörige Fehler wird mit der Gauß´schen Fehlerfortpflanzung berechnet.
 
 \begin{equation}
  \Delta I_k = \sqrt{\left(\frac{\bar{T}^2}{4\pi^2} \cdot \Delta \bar{D} \right)^2
   + \left(\frac{2\bar{D}\bar{T}}{4\pi^2} \cdot \Delta \bar{T} \right)^2
    + \left( -1 \cdot \Delta I_D \right)^2}
+   \label{eq:10}
 \end{equation}
 
 \centerline{$I_k = \SI{-6.7817(42450)e-4}{\kilo\gram\meter\squared}$}\ \\
@@ -194,6 +209,7 @@ Das Trägheitsmoment der Kugel lässt sich auch mit dieser Gleichung berechnen:
 
 \begin{equation}
 I_k = \frac{2}{5} m \frac{D^2}{4}
+\label{eq:11}
 \end{equation}
 
 Die geometrischen Abmessungen der Kugel sind:
@@ -210,7 +226,7 @@ Damit ist das errechnete Trägheitsmoment der gleichen Kugel:
 \subsection{Trägheitsmoment Zylinder}
 
 Die Gleichung zur Bestimmung des Trägheitsmoment von einen Zylinder lässt sich wieder
-aus der Gleichung (3) herleiten. Dann ergibt sich die Gleichung (11) für den Zylinder.
+aus der Gleichung (\ref{eq:2}) herleiten. Dann ergibt sich die Gleichung (\ref{eq:10}) für den Zylinder.
 
 
 \begin{table}[H]
@@ -227,17 +243,18 @@ aus der Gleichung (3) herleiten. Dann ergibt sich die Gleichung (11) für den Zy
     2,23 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab4}
 \end{table}
 
 Die Messwerte der Schwingungsdauer müssen wieder gemittelt werden. Den Mittelwert
-und die Standardabweichung werden mit den Gleichungen (5) und (6) berechnet. \\\\
+und die Standardabweichung werden mit den Gleichungen (\ref{eq:4}) und (\ref{eq:5}) berechnet. \\\\
 
 Der Mittelwert der Schwingungsdauer ist also:
 
 \centerline{$\bar{T} = \SI{2.244(7)}{\second}$}
 
 Nun lässt sich das Trägheitsmoment des Zylinders bestimmen und den Feher mit Gauß´scher
-Fehlerfortpflanzung. Die Formel für den Fehler lässt sich mit der Gleichung (12) berechnen.
+Fehlerfortpflanzung. Die Formel für den Fehler lässt sich mit der Gleichung (\ref{eq:11}) berechnen.
 
 
 Das Trägheitsmoment ist also:
@@ -250,6 +267,7 @@ Abmessungen bestimmen:
 
 \begin{equation}
   I_z = \frac{mD^2}{8}
+  \label{eq:12}
 \end{equation}
 
 \begin{itemize}
@@ -265,7 +283,7 @@ Damit ergibt sich das Trägheitsmoment zu:
 \subsection{Trägheitsmoment der Puppe mit Arme zur Seite}
 
 Das Trägheitsmoment der Puppe wird wieder genauso bestimmt wie bei den zwei anderen
-geometrischen Figuren. Die Formel ist durch die Gleichung (11) gegeben.
+geometrischen Figuren. Die Formel ist durch die Gleichung (\ref{eq:10}) gegeben.
 
 
 \begin{table}[H]
@@ -282,17 +300,18 @@ geometrischen Figuren. Die Formel ist durch die Gleichung (11) gegeben.
     1,41 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab5}
 \end{table}
 
 Der Mittelwert und die Standardabweichung der Schwingungsdauer müssen nun wieder
-mithilfe der Gleichungen (5) und (6) bestimmt werden.
+mithilfe der Gleichungen (\ref{eq:4}) und (\ref{eq:5}) bestimmt werden.
 
 Der Mittelwert ist damit:
 
 \centerline{$\bar{T} = \SI{1.362(32)}{\second}$}
 
 Um den Fehler des Trägheitsmoments zu bestimmen muss wieder eine Gauß´sche
-Fehlerfortpflanzung durchgeführt werden. Dafür wird die Gleichung (12) verwendet.\\\\
+Fehlerfortpflanzung durchgeführt werden. Dafür wird die Gleichung (\ref{eq:11}) verwendet.\\\\
 
 
 \centerline{$I_{p1} = \SI{-1.0319(4177)e-3}{\kilo\gram\meter\squared}$}\ \\
@@ -304,8 +323,8 @@ in der Diskussion erleutert.
 
 Zuletzt wird das Trägheitsmoment der Puppe in einer anderen Position bestimmt. In dem
 fall hat die Puppe die Arme nach oben gestreckt. Die Formel zur berechnung des
-Trägheitsmoments lässt sich wieder aus der Gleichung (3) herleiten wodurch sich wieder
-die Gleichung (11).
+Trägheitsmoments lässt sich wieder aus der Gleichung (\ref{eq:2}) herleiten wodurch sich wieder
+die Gleichung (\ref{eq:10}).
 
 
 
@@ -323,10 +342,11 @@ die Gleichung (11).
     0,45 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab6}
 \end{table}
 
 Zur Berechnung des Trägheitsmomentes wird zunächst der Mittelwert und der Fehler
-der Messungen bestimmt mithilfe der Gleichungen (5) und (6).
+der Messungen bestimmt mithilfe der Gleichungen (\ref{eq:4}) und (\ref{eq:5}).
 
 
 Mithilfe dieser Formeln ergibt sich nun der Mittelwert:\\\\
@@ -334,7 +354,7 @@ Mithilfe dieser Formeln ergibt sich nun der Mittelwert:\\\\
 \centerline{$\bar{T} = \SI{0.514(62)}{\second}$}
 
 Für den Fehler des Trägheitsmomentes wird wieder die Gauß´sche Fehlerfortpflanzung
-benutzt, also die Gleichung (12).
+benutzt, also die Gleichung (\ref{eq:11}).
 
 
 \centerline{$I_{p2} = \SI{-1.9942(4158)e-3}{\kilo\gram\meter\squared}$}
@@ -363,10 +383,11 @@ Abmessungen bestimmen, indem die einzelnen Körperteile als Zylinder angenommen 
           &      & 1,4  & 1,64 \\
     \bottomrule
   \end{tabular}
+  \label{fig:tab7}
 \end{table}
 
 Die gemessenen Durchmesser müssen gemittelt werden und die Standardabweichung muss
-bestimmt werden mit den Gleichungen (5) und (6).
+bestimmt werden mit den Gleichungen (\ref{eq:4}) und (\ref{eq:5}).
 
 Damit ergeben sich die geometrischen Abmessungen der Puppe zu:
 
@@ -398,6 +419,7 @@ Puppe $m_{ges} = \SI{341.2e-3}{\kilo\gram}$. Dazu wird folgende Gleichung benutz
 
 \begin{equation}
   \frac{V}{V_{ges}} = \frac{m}{m_{ges}} \iff m = \frac{V \cdot m_{ges}}{V_{ges}}
+  \label{eq:13}
 \end{equation}
 
 Also müssen zunächst die Volumina der Körperteile berechnet werden. Da sie alle als
@@ -420,7 +442,7 @@ Das Gesamtvolumen der Puppe ist damit:
 
 \centerline{$V_{ges} = \SI{47(4)e-5}{\meter\tothe{3}}$}
 
-Um mit der Gleichung (15) nun die eizelnen Massen zu bestimmen muss außerdem wieder
+Um mit der Gleichung (\ref{eq:13}) nun die eizelnen Massen zu bestimmen muss außerdem wieder
 der Fehler der Massen mit der Gauß´schen Fehlerfortpflanzung berechnet werden:\\\\
 
 $\Delta m = \sqrt{\left(\frac{m_{ges}}{V_{ges}} \cdot \Delta V \right)^2
@@ -442,7 +464,7 @@ Stellungen hat, wird diese Rechnung für beide Fälle einzeln durchgeführt.
 \subsubsection{Puppe mit Armen zur Seite}
 
 In diesem Fall geht die Drehachse nur durch den Schwerpunkt des Kopfes und des Rumpfes.
-Die Trägheitsmomente von diesen beiden Körperteilen kann also mit der Gleichung (14)
+Die Trägheitsmomente von diesen beiden Körperteilen kann also mit der Gleichung (\ref{eq:12})
 bestimmt werden.
 
 Der Fehler für diese beiden Trägheitsmomente wird mit folgender Formel berechnet:\\\\
@@ -496,6 +518,7 @@ bestimmt. \\\\
 
 \begin{equation}
 \Delta I_{ges} = \sqrt{\Delta I_k^2 + \Delta I_r^2 + 4\Delta I_a^2 + 4\Delta I_b^2}
+\label{eq:14}
 \end{equation}
 
 \centerline{$I_{ges} = \SI{5.7(1)e-3}{\kilo\gram\meter\squared}$}
@@ -508,7 +531,7 @@ Nur das Trägheitsmoment der Arme muss neu bestimmt werden.
 
 Nun ist der Schwerpunkt der Arme um den Abstand $a = \frac{d_r}{2} + \frac{d_a}{2}$
 von der Drehachse verschoben. Außerdem ist die Stellung der Arme in diesem Fall anders,
-deshalb kann die Gleichung (14) für den Steinerschen Satz verwendet werden.\\\\
+deshalb kann die Gleichung (\ref{eq:12}) für den Steinerschen Satz verwendet werden.\\\\
 
 $I_a = \frac{m_a \bar{d_a}^2}{8} + m_a \left( \frac{\bar{d_r}}{2} + \frac{\bar{d_a}}{2} \right)^2$\\\\
 
@@ -526,7 +549,7 @@ Damit ergibt sich für das neu bestimmte Trägheitsmoment der Arme:
   \item $I_a = \SI{3.5(6)e-5}{\kilo\gram\meter\squared}$
 \end{itemize}
 
-Der Fehler des gesamten Trägheitsmoments lässt sich mit der Gleichung (16) berechnen.
+Der Fehler des gesamten Trägheitsmoments lässt sich mit der Gleichung (\ref{eq:14}) berechnen.
 Das gesamte Trägheitsmoment für diesen Fall ist damit:\\\\
 
 \centerline{$I_{ges} = \SI{1.33(19)e-4}{\kilo\gram\meter\squared}$}
