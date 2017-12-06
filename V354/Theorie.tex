@@ -14,8 +14,8 @@ Bei einer gedämpften Schwingung wird als energieverbrauchendes Bauelement ein o
 hinzugeschaltet wie in Abbildung (\ref{fig:1}) zu sehen ist.
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Schwingkreis.png}
-\caption{Schaltdarstellung einer gedämpften Schwigung[1].}
+\includegraphics[width=10 cm , height=7 cm]{Schwingkreis.png}
+\caption{Schaltdarstellung einer gedämpften Schwigung[2].}
 \label{fig:1}
 \end{figure}
 Nun beginnt kein unendlicher Energieaustausch zwischen der Kapazität $C$
@@ -41,33 +41,43 @@ Der erste Fall $\frac{1}{LC} \gg \frac{R^2}{4L^2}$ folgt, dass $\omega$ reell is
 Somit wird die Gleichung(\ref{eq:2}) mit Hilfe der Eulerschen Form zu
 \begin{equation}
   I(t) = A_0 \cdot e^{-2\pi\mu t} \cdot cos(2\pi\nu t + \varphi)
+  \label{eq:3}
 \end{equation}
 umgeschrieben. Dabei ist
 \begin{align*}
-    \mu = \frac{R}{4\pi L} \\
-    \nu = \frac{1}{2\pi} \sqrt{\frac{1}{LC} - \frac{R^2}{4L^2}}
+    \mu &= \frac{R}{4\pi L}& \\\\
+    \nu &= \frac{1}{2\pi} \sqrt{\frac{1}{LC} - \frac{R^2}{4L^2}}&
 \end{align*}
-
+Die Gleichung (\ref{eq:3}) stellt eine gedämpfte Schwingung da. Die Amplitude nimmt nach zunehmnder Zeit exponentiell ab.
+und somit kann man für die Schwingunsdauer folgende Formel verwenden:
+\begin{equation}
+  T_ex = \frac{1}{2\pi \mu} = \frac{2L}{R}
+  \label{eq:4}
+\end{equation}
 Der zweite Fall $\frac{1}{LC} \ll \frac{R^2}{4L^2}$ folgt daraus, dass $\omega$ imaginär ist
 und somit sich
 \begin{equation*}
 I(t) \sim e^{-(2\pi \mu - i 2 \pi \nu)t}
 \end{equation*} verhält.\\
-Ein Spezial Fall ist, wenn $\frac{1}{LC} = \frac{R^2}{4L^2}$ folgt daraus das der aperiodische Grenzfall eintrifft
-und der Strom am schnellsten gegen null geht.
+Ein Spezial Fall ist, wenn
+\begin{equation}
+\frac{1}{LC} = \frac{R_{ap}^2}{4L^2}
+\label{eq:5}
+\end{equation}
+folgt daraus das der aperiodische Grenzfall eintrifft und der Strom am schnellsten gegen null geht.
 \newpage
 Erzwungene Schwingungen werden mit einer Sinusspannung, wie in Abbildung(\ref{fig:2}) dargestellt, erzeugt.
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Schwingkreis2.png}
-\caption{Schaltdarstellung einer erzwungene Schwinung[1].}
+\includegraphics[width=10 cm, height= 7 cm]{Schwingkreis2.png}
+\caption{Schaltdarstellung einer erzwungene Schwinung[2].}
 \label{fig:2}
 \end{figure}
 
 Dabei verändert sich die Gleichung (\ref{eq:1}) und die Lösung für solch eine Differentialgleichung lautet:
 \begin{equation}
   U_c(\omega) = \frac{U_0}{\sqrt{(1-LC\omega^2 + (RC\omega)^2}}
-  \label{eq:3}
+  \label{eq:5}
 \end{equation}
 Die Phasenverschiebung zwischen der angelegten Sinusspannung und der Kondensatorspannung kann mit der Formel
 \begin{equation}
@@ -82,5 +92,12 @@ Solch ein Phänomen bezeichnet man als Resonanz.
 Die Resonanzfrequenz lässt sich mit der Formel
 \begin{equation}
   \omega_{res} = \sqrt{\frac{1}{LC} - \frac{R^2}{2L^2}}
+  \label{eq:7}
 \end{equation}
- berechnen.
+berechnen.
+Bei einer schwachen Dämpfung trifft der Fall, dass $\frac{1}{LC} \ll \frac{R^2}{2L^2}$ das $\omega_{res} \rightarrow \omega_0$ wird.
+Somit lässt sich die Formel mit Hilfe der Gleichung (\ref{eq:7})
+\begin{equation}
+  U_{c,max} = \frac{1}{\omega RC} \cdot U_0
+\end{equation}
+darstellen. Der Faktor $\frac{1}{\omega_0 RC}$ wird als Resonazüberhöhung oder Güte $q$ bezeichnet.
