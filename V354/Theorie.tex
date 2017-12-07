@@ -36,7 +36,6 @@ Dabei ist
   \omega_{1,2} =  i \frac{R}{2L} \pm \sqrt{\frac{1}{LC} - \frac{R^2}{4L^2}}
 \end{equation*}
 Es werden nun 2 Fälle betrachtet.\\
-
 Der erste Fall $\frac{1}{LC} \gg \frac{R^2}{4L^2}$ folgt, dass $\omega$ reell ist.\\
 Somit wird die Gleichung(\ref{eq:2}) mit Hilfe der Eulerschen Form zu
 \begin{equation}
@@ -48,10 +47,10 @@ umgeschrieben. Dabei ist
     \mu &= \frac{R}{4\pi L}& \\\\
     \nu &= \frac{1}{2\pi} \sqrt{\frac{1}{LC} - \frac{R^2}{4L^2}}&
 \end{align*}
-Die Gleichung (\ref{eq:3}) stellt eine gedämpfte Schwingung da. Die Amplitude nimmt nach zunehmnder Zeit exponentiell ab.
-und somit kann man für die Schwingunsdauer folgende Formel verwenden:
+Die Gleichung (\ref{eq:3}) stellt eine gedämpfte Schwingung da. Die Amplitude nimmt nach zunehmnder Zeit exponentiell ab
+und somit folgt für die Schwingunsdauer folgende Formel:
 \begin{equation}
-  T_ex = \frac{1}{2\pi \mu} = \frac{2L}{R}
+  T_{ex} = \frac{1}{2\pi \mu} = \frac{2L}{R}
   \label{eq:4}
 \end{equation}
 Der zweite Fall $\frac{1}{LC} \ll \frac{R^2}{4L^2}$ folgt daraus, dass $\omega$ imaginär ist
@@ -65,6 +64,7 @@ Ein Spezial Fall ist, wenn
 \label{eq:5}
 \end{equation}
 folgt daraus das der aperiodische Grenzfall eintrifft und der Strom am schnellsten gegen null geht.
+
 \newpage
 Erzwungene Schwingungen werden mit einer Sinusspannung, wie in Abbildung(\ref{fig:2}) dargestellt, erzeugt.
 \begin{figure}[H]
@@ -77,27 +77,33 @@ Erzwungene Schwingungen werden mit einer Sinusspannung, wie in Abbildung(\ref{fi
 Dabei verändert sich die Gleichung (\ref{eq:1}) und die Lösung für solch eine Differentialgleichung lautet:
 \begin{equation}
   U_c(\omega) = \frac{U_0}{\sqrt{(1-LC\omega^2 + (RC\omega)^2}}
-  \label{eq:5}
+  \label{eq:6}
 \end{equation}
 Die Phasenverschiebung zwischen der angelegten Sinusspannung und der Kondensatorspannung kann mit der Formel
 \begin{equation}
 \varphi(\omega) = \arctan(\frac{-\omega CR}{1-LC\omega^2})
-\label{eq:4}
+\label{eq:7}
 \end{equation}
 errechnet werden.\\
 Für $\omega \rightarrow \infty$ ist $U_c$ = 0 und für $\omega \rightarrow 0$ strebt $U_c$ gegen $U_o$.
-Ab einer bestimmten Frequenz erreicht $U_c$
-ein Maximum und ist größer als $U_o$.
-Solch ein Phänomen bezeichnet man als Resonanz.
+Ab einer bestimmten Frequenz erreicht $U_c$ ein Maximum und ist größer als $U_o$.
+Solch ein Phänomen wird als Resonanz bezeichnet.
 Die Resonanzfrequenz lässt sich mit der Formel
 \begin{equation}
   \omega_{res} = \sqrt{\frac{1}{LC} - \frac{R^2}{2L^2}}
-  \label{eq:7}
+  \label{eq:8}
 \end{equation}
 berechnen.
 Bei einer schwachen Dämpfung trifft der Fall, dass $\frac{1}{LC} \ll \frac{R^2}{2L^2}$ das $\omega_{res} \rightarrow \omega_0$ wird.
-Somit lässt sich die Formel mit Hilfe der Gleichung (\ref{eq:7})
+Somit lässt sich die Formel mit Hilfe der Gleichung (\ref{eq:8})
 \begin{equation}
   U_{c,max} = \frac{1}{\omega RC} \cdot U_0
+  \label{eq:9}
 \end{equation}
 darstellen. Der Faktor $\frac{1}{\omega_0 RC}$ wird als Resonazüberhöhung oder Güte $q$ bezeichnet.
+Für die Breite der Resonanzkurve kann eine Nährung mit der Formel
+\begin{equation}
+  \omega_+ - \omega_- = \frac{R}{L}
+  \label{eq:10}
+\end{equation}
+annehmen.

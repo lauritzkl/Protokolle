@@ -43,7 +43,7 @@ des Generators und in diesem Fall beträgt sie $1,18\si{\V}$.
 \begin{figure}[H]
   \centering
   \caption{Thermodruck einer gedämpften Schwingung.}
-  \includegraphics[width=\textwidth]{Kurve.jpg}
+  \includegraphics[width=10 cm , height= 6cm ]{Kurve.jpg}
   \label{fig:6}
 \end{figure}
 
@@ -73,7 +73,7 @@ ist die Ausgleichsrechnung graphisch dargestellt.
   \label{fig:7}
 \end{figure}
 
-Durch Vergleichen der Gleichungen für die Ausgleichsrechnung und der Gleichung ()
+Durch Vergleichen der Gleichungen für die Ausgleichsrechnung und der Gleichung (\ref{eq:3})
 folgt für den effektiven Dämpfungswiederstand:
 
 \begin{equation*}
@@ -102,7 +102,7 @@ Die Rechnung für die Minima ist die selbe.
 Bei dieser Rechnung ergibt sich eine Abweichung von $\SI{54.8}{\ohm}$.
 
 
-Mithilfe der Gleichung () lässt sich nun auch die Abklingdauer bestimmen.
+Mithilfe der Gleichung (\ref{eq:4}) lässt sich nun auch die Abklingdauer bestimmen.
 
 \begin{equation*}
   T_{ex} = \frac{1}{2\pi\mu} = \frac{1}{b}
@@ -128,7 +128,7 @@ Widerstand durch Messungen ermittelt:
   R_{ap} = 2810 \si{\ohm}
 \end{equation*}
 
-Durch Umformung der Gleichung () lässt sich dieser Widerstand auch theoretisch bestimmen.
+Durch Umformung der Gleichung (\ref{eq:5}) lässt sich dieser Widerstand auch theoretisch bestimmen.
 
 \begin{equation*}
   \iff R_{ap} = \sqrt{\frac{4L}{C}}
@@ -187,14 +187,14 @@ $ U_0 = \SI{1.3}{\V}$.
   \end{tabular}
 \end{table}
 
-Aus der Abbildung (\ref{fig:8}) lässt sich entnehmen und mithilfe der Gleichung (),
+Aus der Abbildung (\ref{fig:8}) lässt sich entnehmen und mithilfe der Gleichung (\ref{eq:9}),
 dass die Resonanzüberhöhung
 
 \begin{equation*}
   q = \frac{U_{c,max}}{U_0} = 2,523
 \end{equation*}
 
-ist. Der theoretische Wert lässt sich mit der Gleichung () und mit dem Zusammenhang
+ist. Der theoretische Wert lässt sich mit der Gleichung (\ref{eq:9}) und mit dem Zusammenhang
 $\omega_0 = \frac{1}{\sqrt{LC}}$ bestimmen. Damit ergibt sich dann:
 
 \begin{equation*}
@@ -235,7 +235,7 @@ Aus dem Graphen lässt sich dann die Breite berechnen:
   \omega_+ - \omega_- = 42000 \si{\Hz} - 28000 \si{\Hz} = 14 \si{\kilo\Hz}
 \end{equation*}
 
-Mit der Gleichung () wird nun die Breite auch theoretisch bestimmt. Daraus ergibt sich
+Mit der Gleichung (\ref{eq:10}) wird nun die Breite auch theoretisch bestimmt. Daraus ergibt sich
 
 \begin{equation*}
   \omega_+ - \omega_- = \SI{12250(100)}{\Hz}
@@ -308,7 +308,7 @@ Aus der Abbildung (\ref{fig:11}) lässt sich nun die Resonanzfrequenz bestimmen.
   \omega_r = 36500 \si{\Hz}
 \end{equation*}
 
-Diese wird nun wieder theoretisch mit der Gleichung (eq:6) bestimmt. Daraus ergibt sich
+Diese wird nun wieder theoretisch mit der Gleichung (\ref{eq:8}) bestimmt. Daraus ergibt sich
 $\omega_r = \SI{36820(160)}{\Hz}$.
 
 Die Formel für den Fehler lautet in diesem Fall:
@@ -328,19 +328,22 @@ Auch die Breite der Resonanzkurve lässt sich aus der Abbildung (\ref{fig:11}) e
   \item $\omega_2 = 42000 \si{\Hz}$
 \end{itemize}
 
-Nun werden auch diese Werte erneut theoretisch mithilfe der Gleichung () bestimmt.
+Nun werden auch diese Werte erneut theoretisch mithilfe der Gleichung (\ref{eq:10}) bestimmt.
 Der Fehler wird erneut mit der Gauß´schen Fehlerfortpflanzung berechnet und ist für beide
 Rechnungen gleich:
 
 \begin{equation*}
-  \Delta \omega_{1,2} = \frac{1}{2\pi} \sqrt{\left( \pm \frac{1}{2L} + \frac{R}{2L^2}
-  \left(\frac{R^2}{4L^2}+\frac{1}{LC}\right)^{\frac{-1}{2}} \Delta R \right)^2 +
-  \left(\mp \frac{R}{2L^2} + \left( \frac{-R^2}{2L^2} - \frac{1}{L^2C}\right)
-  \left(\frac{R^2}{4L^2}+\frac{1}{LC}\right)^{\frac{-1}{2}} \Delta L \right)^2 +
-  \left( \frac{-1}{LC^2} \left(\frac{R^2}{4L^2}+
-  \frac{1}{LC}\right)^{\frac{-1}{2}} \Delta C \right)^2}
+  \Delta \omega_{1,2} = \frac{1}{2\pi} \sqrt{A^2 + B^2 + C^2}
 \end{equation*}
-
+Dabei ist
+\begin{align*}
+  A &= \left(\pm \frac{1}{2L} + \frac{R}{2L^2}
+  \left(\frac{R^2}{4L^2}+\frac{1}{LC}\right)^{\frac{-1}{2}} \Delta R\right) \\
+  B &= \left(\mp \frac{R}{2L^2} + \left( \frac{-R^2}{2L^2} - \frac{1}{L^2C} \left(\frac{R^2}{4L^2}+
+  \frac{1}{LC}\right)\right)^{\frac{-1}{2}} \Delta L\right) \\
+  C &= \left(\frac{-1}{LC^2} \left(\frac{R^2}{4L^2}+
+  \frac{1}{LC}\right)^{\frac{-1}{2}} \Delta C\right) \\
+\end{align*}
 Somit lauten die theoretisch berechneten Werten von $\omega_1$ und $\omega_2$:
 
 \begin{itemize}
