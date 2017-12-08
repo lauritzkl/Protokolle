@@ -1,0 +1,23 @@
+\section{Theorie}
+
+In der Physik sind periodische Vorgänge sehr wichtig. Es lassen sich fast alle
+periodische Vorgänge, die in der Natur vorkommen, beschreiben durch das Fouriersche
+Theorem. Dieses Theorem besagt, dass die in Gleichung (\ref{eq:1}) gezeigte Reihe eine
+beliebige periodische Funktion darstellt, falls sie gleichmäßig konvergiert.
+
+\begin{equation}
+  \frac{1}{2} a_0 + \sum^{\infty}_{n=1} \left( a_n \cos(\frac{2\pi n}{T} t) + b_n \sin(\frac{2\pi n}{T}t) \right)
+  \label{eq:1}
+\end{equation}
+
+Die Koeffizienten $a_n$ und $b_n$ können mit der folgenden Formel bestimmt werden:
+
+\begin{align}
+  a_n = \frac{2}{T} \int_0^T f(t) \cos(\frac{2\pi n}{T} t) \, \symup{d}t &&
+  b_n = \frac{2}{T} \int_0^T f(t) \sin(\frac{2\pi n}{T} t) \, \symup{d}t
+  \label{eq:2}
+\end{align}
+
+Bei der Bestimmung der Amplituden ist es wichtig ob die zu beschreibende Funktion gerade oder
+ungerade ist. Ist die Funktion gerade, also ist $f(t)=f(-t)$, dann sind alle $b_n=0$.
+Falls die Funktion ungerade ist, also $f(t)=-f(-t)$ gilt, sind alle $a_n=0$. 
