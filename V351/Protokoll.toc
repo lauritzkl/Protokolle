@@ -2,4 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {german}
 \contentsline {section}{\numberline {1}Theorie}{3}{section.1}
-\contentsline {section}{\nonumberline Literatur}{3}{section*.2}
+\contentsline {section}{\numberline {2}Durchführung}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Fourier-Analyse}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Fourier-Synthese}{5}{subsection.2.2}
+\contentsline {section}{\nonumberline Literatur}{5}{section*.4}
