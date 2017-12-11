@@ -5,4 +5,8 @@
 \contentsline {section}{\numberline {2}Durchführung}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Fourier-Analyse}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Fourier-Synthese}{5}{subsection.2.2}
-\contentsline {section}{\nonumberline Literatur}{5}{section*.4}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Fourier-Analyse}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Fourier-Synthese}{8}{subsection.3.2}
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.13}
