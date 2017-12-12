@@ -34,20 +34,19 @@ Somit lautet die Funktion $f(t) = \sum^{\infty}_{n=1} \frac{4A}{\pi (2n-1)} \cdo
     Anzahl & $A_{mess} / V$ & $A_{theo} / V$ & $Abweichung / \% $\\
     \midrule \\
     1 & 1070 & 1070 & 0 \\
-    2 & 656  & 681 & 3,67\\
-    3 & 440  & 454 & 3,08\\
-    4 & 320  & 340 & 5,88\\
-    5 & 288  & 272 & 5.88\\
-    6 & 252  & 227 & 11,01\\
-    7 & 208  & 194 & 7,22\\
-    8 & 160  & 170 & 5,88\\
-    9 & 158  & 151 & 4,64\\
+    2 & 656  & 357 & 83,75 \\
+    3 & 440  & 214 & 105,61 \\
+    4 & 320  & 152 & 110,53 \\
+    5 & 288  & 118 & 144,07 \\
+    6 & 252  & 97 & 159,79  \\
+    7 & 208  & 82 & 251,22  \\
+    8 & 160  & 71 & 125,35  \\
+    9 & 158  & 63 & 150,79  \\
     \bottomrule
   \end{tabular}
   \caption{Darstellung der Messergebnisse zur Rechteckspannung}
   \label{tab:1}
 \end{table}
-Beispielrechnung zum ersten Messwert: $b_1$ = 1070 $\implies A =\frac{b_1 \overbrace{n}^{n=1} \pi}{4}= 840$\\
 \centerline{\textbf{Dreieckspannung}}
 Die Funktion ist gerade $\implies$ $b_n = 0$
 Somit kann für die Berechnung der Amplitude die Form $a_n$ nehmen.
@@ -77,21 +76,20 @@ Somit lautet die Funktion $f(t) = \sum^{\infty}_{n=1} \frac{-2AT}{\pi^2 (2n-1)^2
     \toprule\\
     Anzahl & $A_{mess} / V$ & $A_{theo} / V$ & $Abweichung / \% $\\
     \midrule \\
-    1 & 1860 & 1860 & 0\\
-    2 & 216 & 465 & 53,55\\
-    3 & 80 & 207 &  61,35\\
-    4 & 40 & 116 &  65,52\\
-    5 & 24 & 74 &   67,57\\
-    6 & 16,8 & 52 & 69,08\\
-    7 & 12 & 37 &   67,57\\
-    8 & 8,2 & 29 &  71,72\\
-    9 & 6,1 & 23 &  73,48\\
+    1 & 1860 & 1860 & 0  \\
+    2 & 216 & 207 & 4,35 \\
+    3 & 80  & 74 & 8,11  \\
+    4 & 40  & 38 & 5,26  \\
+    5 & 24  & 23 & 4,35  \\
+    6 & 17  & 15 & 13,33 \\
+    7 & 12  & 11 & 9,09  \\
+    8 & 8   & 8  & 0 \\
+    9 & 6   & 6  & 0 \\
     \bottomrule
   \end{tabular}
   \caption{Darstellung der Messergebnisse zur Dreieckspannung}
   \label{tab:2}
 \end{table}
-Beispielrechnung zum ersten Messwert: $a_1$ = 1860 $\implies A =\frac{a_1 \overbrace{n^2}^{n=1} \pi^2}{2}= 9178$\\
 \centerline{\textbf{Sägezahnspannung}}
 Die Funtkion ist ungerade $\implies$ $a_n = 0$.
 Somit kann für die Berechnung der Amplitude die Form $b_n$ nehmen.
@@ -121,9 +119,9 @@ Somit lautet die Funktion $f(t) = \sum^{\infty}_{n=1} \frac{AT}{\pi n}(-1)^{n+1}
     \midrule \\
     1 & 1520 & 1520 & 0\\
     2 & 808 & 760 & 6,32\\
-    3 & 536 & 506 & 5,93\\
+    3 & 536 & 507 & 5,72\\
     4 & 356 & 380 & 6,32\\
-    5 & 328 & 303 & 8,25\\
+    5 & 328 & 304 & 7,90\\
     6 & 260 & 253 & 2,77\\
     7 & 220 & 217 & 1,38\\
     8 & 204 & 190 & 7,37\\
@@ -133,15 +131,14 @@ Somit lautet die Funktion $f(t) = \sum^{\infty}_{n=1} \frac{AT}{\pi n}(-1)^{n+1}
   \caption{Darstellung der Messergebnisse zur Sägezahnspannung}
   \label{tab:3}
 \end{table}
-Beispielrechnung zum ersten Messwert: $a_1$ = 1520 $\implies A =a_1 \overbrace{n}^{n=1} \pi = 4775$\\
 Die Abweichung in den Tabellen(\ref{tab:1}),(\ref{tab:2}) und (\ref{tab:3}) sind mit der Formel:
 \begin{equation*}
   \sigma = \biggl| \frac{A_{theo}-A_{mess}}{A_{theo}} \biggl| \cdot 100
 \end{equation*}
+berechnet worden.
 \subsection{Fourier-Synthese}
-Es werden die 3 Schwingungsformen (Rechteckspannung, Dreieckspannung, Sägezahnspannung) untersucht.
+Wie oben beschrieben, werden die unterschiedlichen Spannungen untersucht.
 Die Amplituden werden in der Tabellen(\ref{tab:4}),(\ref{tab:5}) und (\ref{tab:6}) dargestellt und die dazugehörige Bildschirmfotos präsentiert.\\
-
 \centerline{\textbf{Rechteckspannung}}
 \begin{table}[H]
   \centering
@@ -161,7 +158,12 @@ Die Amplituden werden in der Tabellen(\ref{tab:4}),(\ref{tab:5}) und (\ref{tab:6
 \end{table}
 \begin{figure}[H]
   \centering
-	\includegraphics[width=10 cm, height = 7cm]{Rechteckspannung/3.png}
+  \begin{subfigure}{0.48\textwidth}
+	\includegraphics[width=\textwidth]{Rechteckspannung/1.png}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+  \includegraphics[width=\textwidth]{Rechteckspannung/3.png}
+\end{subfigure}
 \end{figure}
 
 \centerline{\textbf{Dreieckspannung}}
@@ -183,7 +185,12 @@ Die Amplituden werden in der Tabellen(\ref{tab:4}),(\ref{tab:5}) und (\ref{tab:6
 \end{table}
 \begin{figure}[H]
   \centering
-	\includegraphics[width=10 cm , height=5cm]{Dreieckspannung/4.png}
+  \begin{subfigure}{0.48\textwidth}
+	\includegraphics[width=\textwidth]{Dreieckspannung/1.png}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+  \includegraphics[width=\textwidth]{Dreieckspannung/4.png}
+\end{subfigure}
 \end{figure}
 \centerline{\textbf{Sägezahnspannung}}
 \begin{table}[H]
@@ -208,5 +215,19 @@ Die Amplituden werden in der Tabellen(\ref{tab:4}),(\ref{tab:5}) und (\ref{tab:6
 \end{table}
 \begin{figure}[H]
   \centering
-	\includegraphics[width=10 cm , height=7cm]{Saegespannung/8.png}
+  \begin{subfigure}{0.48\textwidth}
+	\includegraphics[width=\textwidth]{Saegespannung/1.png}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+  \includegraphics[width=\textwidth]{Saegespannung/4.png}
+\end{subfigure}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.48\textwidth}
+  \includegraphics[width=\textwidth]{Saegespannung/5.png}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+  \includegraphics[width=\textwidth]{Saegespannung/8.png}
+\end{subfigure}
 \end{figure}
