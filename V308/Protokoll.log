@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  14 DEC 2017 20:12
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  15 DEC 2017 20:52
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.250 seconds
+luaotfload | main : initialization completed in 0.219 seconds
 Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2058,26 +2058,26 @@ luatex-hyphen: info: no hyphenation exceptions for this language
 Language ngerman already loaded; id is 8)
 \openout1 = Protokoll.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 Language ngerman already loaded; id is 8
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
@@ -2090,7 +2090,7 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 13.
+. Activating mapping `fontspec' on line 12.
 .................................................
 
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -2126,7 +2126,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 13.
+LaTeX Info: Redefining \microtypecontext on input line 12.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2151,10 +2151,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Protokoll.bbl' found.
 
 (./Protokoll.bbl)
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
+Package biblatex Info: Reference section=0 on input line 12.
+Package biblatex Info: Reference segment=0 on input line 12.
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 12.
  (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2163,27 +2163,27 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count446
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 \c__siunitx_mathsf_int=\count447
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatinModernMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 13.
+(Font)              scaled to size 10.95015pt on input line 12.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 13.
+(Font)              scaled to size 8.00012pt on input line 12.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 13.
+(Font)              scaled to size 6.00009pt on input line 12.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 13.
+(Font)              scaled to size 10.94983pt on input line 12.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 13.
+(Font)              scaled to size 7.99988pt on input line 12.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 13.
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+(Font)              scaled to size 5.99991pt on input line 12.
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2191,7 +2191,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2222,21 +2222,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 d.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroma
 n12-regular.luc)
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 14.4002pt on input line 15.
+(Font)              scaled to size 14.4002pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 15.
+(Font)              scaled to size 10.00015pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 15.
+(Font)              scaled to size 7.0001pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.39977pt on input line 15.
+(Font)              scaled to size 14.39977pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 15.
+(Font)              scaled to size 9.99985pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 15.
+(Font)              scaled to size 6.9999pt on input line 14.
  [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package tocbasic Info: character protrusion at toc deactivated on input line 17.
+Package tocbasic Info: character protrusion at toc deactivated on input line 16.
 
 
 (./Protokoll.toc
@@ -2247,63 +2247,73 @@ Language ngerman already loaded; id is 8)
  [2
 
 ] (./Theorie.tex
-<Abb1.png, id=26, pagebox=cropbox, 146.79843pt x 140.39954pt>
+<Abb1.png, id=30, pagebox=cropbox, 146.79843pt x 140.39954pt>
 File: Abb1.png Graphic file (type png)
 <use Abb1.png>
-Package luatex.def Info: Abb1.png  used on input line 29. on input line 29.
+Package luatex.def Info: Abb1.png  used on input line 30. on input line 30.
 Package luatex.def Info: Requested size: 142.26437pt x 99.58366pt on input line 
-29.
+30.
  [3<./Abb1.png>]
-<Abb2.png, id=42, pagebox=cropbox, 58.34297pt x 67.75313pt>
+<Abb2.png, id=46, pagebox=cropbox, 58.34297pt x 67.75313pt>
 File: Abb2.png Graphic file (type png)
 <use Abb2.png>
-Package luatex.def Info: Abb2.png  used on input line 54. on input line 54.
-Package luatex.def Info: Requested size: 284.67488pt x 199.17728pt on input line
- 54.
-)
-(./D.tex) (./Auswertung.tex) (./Diskussion.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
- [4<./Abb2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+Package luatex.def Info: Abb2.png  used on input line 56. on input line 56.
+Package luatex.def Info: Requested size: 142.2987pt x 99.58864pt on input line 5
+6.
+<Abb3.png, id=50, pagebox=cropbox, 264.99pt x 230.73703pt>
+File: Abb3.png Graphic file (type png)
+<use Abb3.png>
+Package luatex.def Info: Abb3.png  used on input line 76. on input line 76.
+Package luatex.def Info: Requested size: 284.54735pt x 199.16931pt on input line
+ 76.
 
-(./Protokoll.aux
+[4<./Abb2.png>]) (./D.tex
+<Abb4.png, id=62, pagebox=cropbox, 214.92796pt x 159.97266pt>
+File: Abb4.png Graphic file (type png)
+<use Abb4.png>
+Package luatex.def Info: Abb4.png  used on input line 12. on input line 12.
+Package luatex.def Info: Requested size: 284.55518pt x 199.17198pt on input line
+ 12.
+ [5<./Abb3.png>]
+<Abb5.png, id=71, pagebox=cropbox, 210.03468pt x 153.57375pt>
+File: Abb5.png Graphic file (type png)
+<use Abb5.png>
+Package luatex.def Info: Abb5.png  used on input line 21. on input line 21.
+Package luatex.def Info: Requested size: 284.5313pt x 199.18185pt on input line 
+21.
+<Abb6.png, id=73, pagebox=cropbox, 211.91672pt x 156.585pt>
+File: Abb6.png Graphic file (type png)
+<use Abb6.png>
+Package luatex.def Info: Abb6.png  used on input line 29. on input line 29.
+Package luatex.def Info: Requested size: 284.53925pt x 199.17612pt on input line
+ 29.
+) (./Auswertung.tex [6<./Abb4.png><./Abb5.png>]) (./Diskussion.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
+ [7<./Abb6.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
+ (./Protokoll.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
-
-
-Package rerunfilecheck Warning: File `Protokoll.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.aux':
-(rerunfilecheck)             Before: 7733A4E82FA2DBEF552D4A2CDE2FDE82;2940
-(rerunfilecheck)             After:  AD31A6D46809F6B2BAC8612E5B5906CB;3275.
-
-Package rerunfilecheck Warning: File `Protokoll.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.toc':
-(rerunfilecheck)             Before: 5E081CACBDB440F59CAAB764D96F1B34;293
-(rerunfilecheck)             After:  C5BDD6ADD2EE5044E448DBB75A4347E4;357.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
+(rerunfilecheck)             Checksum: 95C3CD7879B5D813012C7D9AAB8DB93A;4702.
+Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
+(rerunfilecheck)             Checksum: E1BFC4D7150CEEAE6CE3678ABE1E6B91;425.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40527 strings out of 494472
+ 40567 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 617 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 17 attribute, 75 glue_spec, 17 attr
+ 630 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 19 attribute, 76 glue_spec, 19 attr
 ibute_list, 1 write nodes
-   avail lists: 2:249,3:84,4:23,5:165,6:1794,7:405,8:54,9:157,10:12,11:221
- 43488 multiletter control sequences out of 65536+600000
+   avail lists: 2:245,3:84,4:26,5:164,6:1782,7:405,8:54,9:157,10:15,11:222
+ 43511 multiletter control sequences out of 65536+600000
  95 fonts using 24263615 bytes
- 61i,7n,104p,8838b,2396s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,7n,104p,8838b,2397s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
 17/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/201
@@ -2312,10 +2322,10 @@ xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
 texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf
 -dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist
 /fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (4 pages, 57787 bytes).
+Output written on Protokoll.pdf (7 pages, 896053 bytes).
 
-PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 131072)
- 25 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 153 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 100000000)
 
