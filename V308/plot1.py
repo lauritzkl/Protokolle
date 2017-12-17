@@ -15,9 +15,11 @@ mpl.rcParams.update({
 x, y = np.genfromtxt('data1.txt', unpack=True)
 x_2, y_2 = np.genfromtxt('data1.2.txt', unpack=True)
 
+#y_3 = (4*np.pi*300*0.0205**2)/(2*((0.0205**2)+(x-0.11)**2)**(3/2))
 
 plt.plot(x, y, r'kx', label=r'Messwerte links')
 plt.plot(x_2, y_2, r'rx', label=r'Messwerte rechts')
+#plt.plot(x, y_3)
 plt.axhline(1.984, color='green', linestyle='-', label='Theoriewert')
 plt.legend()
 plt.grid()
