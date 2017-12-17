@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  17 DEC 2017 20:22
-||||||| merged common ancestors
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  15 DEC 2017 20:52
-=======
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  17 DEC 2017 22:34
->>>>>>> Auswertung
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  17 DEC 2017 22:53
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -40,16 +34,8 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-<<<<<<< HEAD
-luaotfload | main : initialization completed in 0.232 seconds
-Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
-||||||| merged common ancestors
-luaotfload | main : initialization completed in 0.219 seconds
-Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
-=======
-luaotfload | main : initialization completed in 0.250 seconds
+luaotfload | main : initialization completed in 0.234 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
->>>>>>> Auswertung
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2414,68 +2400,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
-<<<<<<< HEAD
 
 
 Package rerunfilecheck Warning: File `Protokoll.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `Protokoll.aux':
-(rerunfilecheck)             Before: 95C3CD7879B5D813012C7D9AAB8DB93A;4762
-(rerunfilecheck)             After:  4F9D0F8E3FBCBDCC78E9BB6A624B2BC5;5001.
-
-Package rerunfilecheck Warning: File `Protokoll.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.toc':
-(rerunfilecheck)             Before: E1BFC4D7150CEEAE6CE3678ABE1E6B91;432
-(rerunfilecheck)             After:  A4D2AB7AE9342E29F1E2D2FA57AF4037;490.
-||||||| merged common ancestors
-Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 95C3CD7879B5D813012C7D9AAB8DB93A;4702.
-Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
-(rerunfilecheck)             Checksum: E1BFC4D7150CEEAE6CE3678ABE1E6B91;425.
-=======
-Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 9423128D9215C4380C4041A7C9476B8C;10419.
+(rerunfilecheck)             Before: BCC1458EA92731DD58B404643C8A8973;10387
+(rerunfilecheck)             After:  9423128D9215C4380C4041A7C9476B8C;10419.
 Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
 (rerunfilecheck)             Checksum: FF8516A09B2E1C5FDED395C6B17FE60B;785.
 
-
 LaTeX Warning: There were undefined references.
 
->>>>>>> Auswertung
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
-<<<<<<< HEAD
- 40569 strings out of 494472
-||||||| merged common ancestors
- 40567 strings out of 494472
-=======
  40830 strings out of 494483
->>>>>>> Auswertung
  100000,1648299 words of node,token memory allocated
  639 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 20 attribute, 77 glue_spec, 20 attr
 ibute_list, 1 write nodes
-<<<<<<< HEAD
-   avail lists: 2:245,3:84,4:34,5:164,6:1782,7:438,8:54,9:157,10:21,11:230
- 43512 multiletter control sequences out of 65536+600000
- 95 fonts using 24263615 bytes
- 61i,7n,104p,8838b,2395s stack positions out of 5000i,500n,10000p,200000b,100000s
-||||||| merged common ancestors
-   avail lists: 2:245,3:84,4:26,5:164,6:1782,7:405,8:54,9:157,10:15,11:222
- 43511 multiletter control sequences out of 65536+600000
- 95 fonts using 24263615 bytes
- 61i,7n,104p,8838b,2397s stack positions out of 5000i,500n,10000p,200000b,100000s
-=======
-   avail lists: 2:569,3:101,4:26,5:167,6:1782,7:630,8:63,9:177,10:15,11:222
+   avail lists: 2:569,3:101,4:32,5:167,6:1782,7:630,8:63,9:177,10:21,11:230
  43670 multiletter control sequences out of 65536+600000
- 148 fonts using 38739851 bytes
+ 148 fonts using 38738459 bytes
  61i,14n,104p,8838b,2399s stack positions out of 5000i,500n,10000p,200000b,100000s
->>>>>>> Auswertung
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
 live/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/201
@@ -2484,28 +2435,10 @@ live/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/201
 texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf
 -dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist
 /fonts/opentype/public/lm/lmsans10-bold.otf>
-<<<<<<< HEAD
-Output written on Protokoll.pdf (7 pages, 896573 bytes).
-||||||| merged common ancestors
-Output written on Protokoll.pdf (7 pages, 896053 bytes).
-=======
-Output written on Protokoll.pdf (18 pages, 956422 bytes).
->>>>>>> Auswertung
+Output written on Protokoll.pdf (18 pages, 956425 bytes).
 
-<<<<<<< HEAD
-PDF statistics: 157 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 131072)
- 41 words of extra memory for PDF output out of 10000 (max. 100000000)
-||||||| merged common ancestors
-PDF statistics: 153 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
-=======
 PDF statistics: 373 PDF objects out of 1000 (max. 8388607)
  278 compressed objects within 3 object streams
  54 named destinations out of 1000 (max. 131072)
  65 words of extra memory for PDF output out of 10000 (max. 100000000)
->>>>>>> Auswertung
 
