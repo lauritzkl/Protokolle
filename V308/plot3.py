@@ -14,8 +14,15 @@ mpl.rcParams.update({
 
 x, y = np.genfromtxt('data3.txt', unpack=True)
 
+def f(x, a, b):
+    return (a*b)/((b + x**2)**(3/2)) 
+
+params, covariance_matrix = curve_fit(f, x, y)
+
+errors = np.sqrt(np.diag(covariance_matrix))
 
 plt.plot(x, y, r'kx', label=r'Messwerte')
+plt.plot(x, f(x, *params), 'r-', label='Regression')
 plt.legend()
 plt.grid()
 plt.ylabel(r'$B \, / \, \si{\milli\tesla}$')
