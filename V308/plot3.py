@@ -14,18 +14,13 @@ mpl.rcParams.update({
 
 x, y = np.genfromtxt('data3.txt', unpack=True)
 
-def f(x, a, b):
-    return (a*b)/((b + x**2)**(3/2)) 
-
-params, covariance_matrix = curve_fit(f, x, y)
-
-errors = np.sqrt(np.diag(covariance_matrix))
+y_2=(1.26*10**(-6)*3)/(0.14)*((1/(((x-0.035)/0.07)**2+((x-0.035)/0.07)+(5/4))**(3/2))+(1/(((x-0.035)/0.07)**2-((x-0.035)/0.07)+(5/4))**(3/2)))
 
 plt.plot(x, y, r'kx', label=r'Messwerte')
-plt.plot(x, f(x, *params), 'r-', label='Regression')
+plt.plot(x, y_2)
 plt.legend()
 plt.grid()
-plt.ylabel(r'$B \, / \, \si{\milli\tesla}$')
+plt.ylabel(r'$B \, / \, \si{\tesla}$')
 plt.xlabel(r'$x \, / \, \si{\meter}$')
 plt.tight_layout()
 plt.savefig('plot3.pdf')

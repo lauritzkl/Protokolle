@@ -3,8 +3,9 @@
 
 Zunächst wird das Magnetfeld einer langen Spule mit einer Hall-Sonde ausgemessen.
 Die Messergebnisse sind in Abbildung (\ref{abb:7}) graphisch dargestellt und in der
-Tabelle (\ref{tab:1}) tabellarisch. Mithilfe der Gleichung (\ref{eq:3}) wird die
-Theoriekurve bestimmt. Die Parameter der Spule lauten:
+Tabelle (\ref{tab:1}) tabellarisch. Das Magnetfeld dieser Spule wird von links und
+von rechts seperat gemessen, da die Hall-Sonde nicht lang genug ist. Mithilfe
+der Gleichung (\ref{}) wird die Theoriekurve bestimmt. Die Parameter der Spule lauten:
 
 \begin{itemize}
   \item Windungszahl: n=300
@@ -52,6 +53,7 @@ Theoriekurve bestimmt. Die Parameter der Spule lauten:
   \caption{Graphische Darstellung der Messwerte, die von links und von rechts Gemessen wurden.}
   \label{abb:7}
 \end{figure}
+
 
 Daraufhin wird das Magnetfeld einer kürzeren Spule untersucht. Die Messwerte sind in
 Tabelle (\ref{tab:2}) und in Abbildung (\ref{abb:8}) dargestellt. Auch bei dieser
@@ -290,24 +292,119 @@ In dem letzten Teil wird nun die Hysteresekurve eines Materials bestimmt. Dafür
 die Messwerte Graphisch in der Abbildung (\ref{abb:12}) dargestellt um die Parameter
 der Kurve zu bestimmen.
 
-\begin{table}[H]
+\begin{table}
   \centering
   \caption{Messwerte der Neukurve.}
   \label{tab:6}
   \begin{tabular}{c c}
     \toprule
+    $I/\si{\ampere}$ & $B/\si{\milli\tesla}$ \\
     \midrule
+    1  &  98,1 \\
+    2  & 257,5 \\
+    3  & 380,0 \\
+    4  & 468,2 \\
+    5  & 528,2 \\
+    6  & 572,4 \\
+    7  & 609,8 \\
+    8  & 641,1 \\
+    9  & 668,6 \\
+    10 & 694,2 \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \centering
   \caption{Messwerte für die Hysteresekurve.}
   \label{tab:7}
   \begin{tabular}{c c}
     \toprule
+    $I/\si{\ampere}$ & $B/\si{\milli\tesla}$ \\
     \midrule
+    10    & 694,2 \\
+    9,5   & 683,4 \\
+    9     & 675,1 \\
+    8,5   & 666,7 \\
+    8     & 656,7 \\
+    7,5   & 647,1 \\
+    7     & 636,5 \\
+    6,5   & 625,0 \\
+    6     & 612,4 \\
+    5,5   & 598,7 \\
+    5     & 583,1 \\
+    4,5   & 566,7 \\
+    4     & 548,0 \\
+    3,5   & 526,9 \\
+    3     & 502,8 \\
+    2,5   & 472,1 \\
+    2     & 436,9 \\
+    1,5   & 386,8 \\
+    1     & 308,3 \\
+    0,5   & 212,0 \\
+    0     & 126,5 \\
+    0     &  56,5 \\
+    -0,5  &  20,2 \\
+    -1    & -76,8 \\
+    -1,5  &-160,2 \\
+    -2    &-241,7 \\
+    -2,5  &-313,7 \\
+    -3    &-370,0 \\
+    -3,5  &-422,5 \\
+    -4    &-460,2 \\
+    -4,5  &-495,9 \\
+    -5    &-521,8 \\
+    -5,5  &-546,1 \\
+    -6    &-568,2 \\
+    -6,5  &-588,2 \\
+    -7    &-605,2 \\
+    -7,5  &-622,2 \\
+    -8    &-636,9 \\
+    -8,5  &-651,3 \\
+    -9    &-664,6 \\
+    -9,5  &-676,9 \\
+    -10   &-688,4 \\
+    -9,5  &-680,1 \\
+    -9    &-672,2 \\
+    -8,5  &-663,5 \\
+    -8    &-653,6 \\
+    -7,5  &-644,0 \\
+    -7    &-632,8 \\
+    -6,5  &-621,6 \\
+    -6    &-608,5 \\
+    -5,5  &-595,3 \\
+    -5    &-580,2 \\
+    -4,5  &-564,0 \\
+    -4    &-544,9 \\
+    -3,5  &-522,9 \\
+    -3    &-497,6 \\
+    -2,5  &-470,9 \\
+    -2    &-434,1 \\
+    -1,5  &-383,1 \\
+    -1    &-318,3 \\
+    -0,5  &-211,3 \\
+    0     &-123,4 \\
+    0     &-106,0 \\
+    0,5   & -29,6 \\
+    1     &  64,2 \\
+    1,5   & 151,8 \\
+    2     & 239,7 \\
+    2,5   & 311,6 \\
+    3     & 371,8 \\
+    3,5   & 430,8 \\
+    4     & 460,0 \\
+    4,5   & 495,0 \\
+    5     & 523,5 \\
+    5,5   & 547,3 \\
+    6     & 568,2 \\
+    6,5   & 587,0 \\
+    7     & 605,8 \\
+    7,5   & 623,8 \\
+    8     & 635,9 \\
+    8,5   & 650,6 \\
+    9     & 664,1 \\
+    9,5   & 675,9 \\
+    10    & 687,7 \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -329,4 +426,30 @@ damit
 
 \begin{equation*}
   B_s = \SI{694.2}{\milli\tesla}.
+\end{equation*}
+
+Auch die Remanenz lässt sich aus dem Graphen ablesen. Da nicht genau gemessen werden
+kann muss der Mittelwert und die Standardabweichung aus den zwei möglichen Werten der Remanenz bestimmt werden
+mit folgenden Formeln.
+
+\begin{equation}
+    \bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i
+\end{equation}
+
+\begin{equation}
+  \Delta \bar{x} = \frac{1}{\sqrt{N}\sqrt{N-1}} \sqrt{\sum_{i}(x_i-\bar{x})^2}
+\end{equation}
+
+Damit ergibt sich die Remanenz zu:
+
+\begin{equation*}
+  B_r = \SI{91.5(350)}{\milli\tesla}
+\end{equation*}
+
+Für die Koerzitivkraft wird wieder der Graph der Hysteresekurve betrachtet. Die
+Koerzitivkraft ist in diesem Fall als Strom angegeben, der für das Magnetfeld der
+Spule verantwortlich ist. Die Koerzitivkraft ist somit:
+
+\begin{equation*}
+  I_c = \SI{-0.6}{\ampere}
 \end{equation*}

@@ -14,16 +14,18 @@ mpl.rcParams.update({
 
 x, y = np.genfromtxt('data1.txt', unpack=True)
 x_2, y_2 = np.genfromtxt('data1.2.txt', unpack=True)
+x_3, D = np.genfromtxt('data1.3.txt', unpack=True)
 
-#y_3 = (4*np.pi*300*0.0205**2)/(2*((0.0205**2)+(x-0.11)**2)**(3/2))
+y_3 = (4*np.pi*10**(-7)*1578.95*1.15)/2 * ((x_3-0.02)/((x_3-0.02)**2 + 0.0205**2)**(1/2) - (x_3-0.2)/((x_3-0.2)**2 + 0.0205**2)**(1/2))
+
 
 plt.plot(x, y, r'kx', label=r'Messwerte links')
 plt.plot(x_2, y_2, r'rx', label=r'Messwerte rechts')
-#plt.plot(x, y_3)
-plt.axhline(1.984, color='green', linestyle='-', label='Theoriewert')
+plt.plot(x_3, y_3, label='Theoriekurve')
+#plt.axhline(0.001984, color='green', linestyle='-', label='Theoriewert')
 plt.legend()
 plt.grid()
-plt.ylabel(r'$B \, / \, \si{\milli\tesla}$')
+plt.ylabel(r'$B \, / \, \si{\tesla}$')
 plt.xlabel(r'$x \, / \, \si{\meter}$')
 plt.tight_layout()
 plt.savefig('plot1.pdf')

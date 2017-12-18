@@ -14,12 +14,14 @@ mpl.rcParams.update({
 
 x, y = np.genfromtxt('data2.txt', unpack=True)
 
+y_3 = (4*np.pi*10**(-7)*1176.47*1.3)/2 * ((x-0.03)/((x-0.03)**2 + 0.0205**2)**(1/2) - (x-0.095)/((x-0.095)**2 + 0.0205**2)**(1/2))
 
 plt.plot(x, y, r'kx', label=r'Messwerte')
-plt.axhline(1.478, color='green', linestyle='-', label='Theoriewert')
+plt.plot(x, y_3)
+#plt.axhline(1.478, color='green', linestyle='-', label='Theoriewert')
 plt.legend()
 plt.grid()
-plt.ylabel(r'$B \, / \, \si{\milli\tesla}$')
+plt.ylabel(r'$B \, / \, \si{\tesla}$')
 plt.xlabel(r'$x \, / \, \si{\meter}$')
 plt.tight_layout()
 plt.savefig('plot2.pdf')
