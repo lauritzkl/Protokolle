@@ -14,9 +14,9 @@ mpl.rcParams.update({
 
 x, y = np.genfromtxt('data1.txt', unpack=True)
 x_2, y_2 = np.genfromtxt('data1.2.txt', unpack=True)
-x_3, D = np.genfromtxt('data1.3.txt', unpack=True)
-
-y_3 = (4*np.pi*10**(-7)*1578.95*1.15)/2 * ((x_3-0.02)/((x_3-0.02)**2 + 0.0205**2)**(1/2) - (x_3-0.2)/((x_3-0.2)**2 + 0.0205**2)**(1/2))
+#x_3, D = np.genfromtxt('data1.3.txt', unpack=True)
+x_3 = np.linspace(0.01, 0.21)
+y_3 = (4*np.pi*10**(-7)*1578.95*1)/2 * ((x_3-0.02)/((x_3-0.02)**2 + 0.0205**2)**(1/2) - (x_3-0.2)/((x_3-0.2)**2 + 0.0205**2)**(1/2))
 
 
 plt.plot(x, y, r'kx', label=r'Messwerte links')

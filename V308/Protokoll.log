@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  18 DEC 2017 19:06
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  18 DEC 2017 19:49
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.274 seconds
+luaotfload | main : initialization completed in 0.244 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2438,7 +2438,7 @@ live/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/201
 texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf
 -dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist
 /fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (21 pages, 961830 bytes).
+Output written on Protokoll.pdf (21 pages, 962483 bytes).
 
 PDF statistics: 392 PDF objects out of 1000 (max. 8388607)
  294 compressed objects within 3 object streams
