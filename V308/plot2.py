@@ -19,7 +19,7 @@ x_3 = np.linspace(0.01, 0.12, 23)
 y_3 = (4*np.pi*10**(-7)*1176.47*1)/2 * ((x-0.03)/((x-0.03)**2 + 0.0205**2)**(1/2) - (x-0.095)/((x-0.095)**2 + 0.0205**2)**(1/2))
 
 plt.plot(x, y, r'kx', label=r'Messwerte')
-plt.plot(x_3, y_3)
+plt.plot(x_3, y_3, label='Theoriekurve')
 #plt.axhline(1.478, color='green', linestyle='-', label='Theoriewert')
 plt.legend()
 plt.grid()

@@ -9,4 +9,4 @@
 \contentsline {subsection}{\numberline {4.2}Magnetfeld einer Helmholtz-Spule}{11}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Bestimmung der Hysteresekurve}{17}{subsection.4.3}
 \contentsline {section}{\numberline {5}Diskussion}{20}{section.5}
-\contentsline {section}{\nonumberline Literatur}{21}{section*.21}
+\contentsline {section}{\nonumberline Literatur}{20}{section*.21}

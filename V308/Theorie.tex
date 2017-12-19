@@ -39,7 +39,14 @@ homogene Magnetfeld mit der Formel
   B = \mu_r \mu_0 \frac{n}{l} I
   \label{eq:3}
 \end{equation}
-darstellen. Wird die langgestreckte Spule zu einem Kreis gebogen so wird die Spulenanordnung
+darstellen.
+Eine genauere Berechnung zur Magnetfeldstärke kann folgende Form verwendet werden
+\begin{equation}
+  B= \frac{\mu_0 n I R^2}{2} \cdot (\frac{x-x_1}{\sqrt{(x-x_1)^2 +R^2}} - \frac{x-x_2}{\sqrt{(x-x_2)^2 +R^2}})
+  \label{eq:7}
+\end{equation}
+Eine bildiche Veranschaulichung der Gleichung (\ref{eq:7}) steht in [2].
+Wird die langgestreckte Spule zu einem Kreis gebogen so wird die Spulenanordnung
 als Torus bezeichnet. Die Besonderheit des Torus ist, dass außerhalb kein Magnetfeld
 existiert und im Inneren das Magnetfeld homogen ist. Somit lässt sich die Gleichung(\ref{eq:3})
 mit $l= 2\pi r_T$ zu
@@ -66,7 +73,7 @@ beschreiben. Dabei ist $x=\frac{d}{2}$ mit $d$ als Abstand der beiden Spulen gem
 Ferromagnetische Materialien wie z.B. Eisen, Kobalt oder Nickel besitzen ohne ein äußeres Magnetfeld
 ein permanentes magnetisches Moment. Magnetischen Momente richten sich in einzelnen Bereichen (Weißsche Bezirke)
 parallel zu einander aus. Ohne äußeres Feld ist die Ausrichtung der Weißschen Bezirke statisch verteilt.
-Mit einem äu0eren Magnetfeld gibt es eine Richtungsänderung und zu einer Vergrößerung des Bezirks.
+Mit einem äußeren Magnetfeld gibt es eine Richtungsänderung und zu einer Vergrößerung des Bezirks.
 Dies wird solange ausgeführt bis alle magnetischen Momente mit der Ausrichtung vom Magnetfeld übereinstimmen.
 Für ferromagnetische Materialien ist die relative Permeabilität $\mu_r$ sehr hoch, somit ist die Gültigkeit der
 Gleichung (\ref{eq:1}) ungültig.
@@ -84,8 +91,8 @@ als Remanenz bezeichnet wird. Die \textbf{2} beschreibt die Koerzitivkraft um di
 Durch Erhöhung des Gegenfeldes wird ebenfalls ein negativen Sättigungswert erreicht.
 Die \textbf{3} zeigt den Kurvenverlauf durch Erhöhung des Magnetfeldes und sie ist symmetrisch zur Hysteresekurve.
 Somit wird die relative Permeabilität $\mu_r$ eine Funktion zur Feldstärke $\vec{H}$.
-Somit wird die Neukurve durch die differentielle Permeabilität $\mu_{diff}$ eingeführt und wird
-\begin{equation}
+Die Neukurve wird durch die differentielle Permeabilität $\mu_{diff}$ beschrieben und lautet 
+\begin{equation*}
   \mu_{diff} = \frac{dB}{\mu_0 \cdot dH}
   \label{eq:6}
-\end{equation}
+\end{equation*}
