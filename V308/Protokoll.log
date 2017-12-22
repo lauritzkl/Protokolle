@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  21 DEC 2017 09:59
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  22 DEC 2017 13:35
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.221 seconds
+luaotfload | main : initialization completed in 0.234 seconds
 Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2268,29 +2268,31 @@ Language ngerman already loaded; id is 8)
 \openout5 = Protokoll.toc
  [2
 
-] (./Theorie.tex
-<Abb1.png, id=40, pagebox=cropbox, 146.79843pt x 140.39954pt>
+] (./Theorie.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/
+otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gener
+ic/fonts/otl/lmroman6-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-ca
+che/generic/fonts/otl/lmroman5-regular.luc)
+<Abb1.png, id=39, pagebox=cropbox, 146.79843pt x 140.39954pt>
 File: Abb1.png Graphic file (type png)
 <use Abb1.png>
 Package luatex.def Info: Abb1.png  used on input line 36. on input line 36.
 Package luatex.def Info: Requested size: 142.26437pt x 99.58366pt on input line 
 36.
  [3<./Abb1.png>]
-<Abb2.png, id=60, pagebox=cropbox, 58.34297pt x 67.75313pt>
+<Abb2.png, id=58, pagebox=cropbox, 58.34297pt x 67.75313pt>
 File: Abb2.png Graphic file (type png)
 <use Abb2.png>
 Package luatex.def Info: Abb2.png  used on input line 77. on input line 77.
 Package luatex.def Info: Requested size: 142.2987pt x 99.58864pt on input line 7
 7.
-<Abb3.png, id=67, pagebox=cropbox, 264.99pt x 230.73703pt>
+<Abb3.png, id=64, pagebox=cropbox, 264.99pt x 230.73703pt>
 File: Abb3.png Graphic file (type png)
 <use Abb3.png>
-Package luatex.def Info: Abb3.png  used on input line 110. on input line 110.
+Package luatex.def Info: Abb3.png  used on input line 103. on input line 103.
 Package luatex.def Info: Requested size: 284.54735pt x 199.16931pt on input line
- 110.
-
-[4<./Abb2.png>]) (./D.tex
-<Abb4.png, id=83, pagebox=cropbox, 214.92796pt x 159.97266pt>
+ 103.
+ [4<./Abb2.png>]) (./D.tex
+<Abb4.png, id=81, pagebox=cropbox, 214.92796pt x 159.97266pt>
 File: Abb4.png Graphic file (type png)
 <use Abb4.png>
 Package luatex.def Info: Abb4.png  used on input line 12. on input line 12.
@@ -2303,18 +2305,15 @@ File: Abb5.png Graphic file (type png)
 Package luatex.def Info: Abb5.png  used on input line 21. on input line 21.
 Package luatex.def Info: Requested size: 284.5313pt x 199.18185pt on input line 
 21.
- [6<./Abb4.png>]
-<Abb6.png, id=100, pagebox=cropbox, 211.91672pt x 156.585pt>
+<Abb6.png, id=93, pagebox=cropbox, 211.91672pt x 156.585pt>
 File: Abb6.png Graphic file (type png)
 <use Abb6.png>
 Package luatex.def Info: Abb6.png  used on input line 29. on input line 29.
 Package luatex.def Info: Requested size: 284.53925pt x 199.17612pt on input line
  29.
-) (./Auswertung.tex
-[7<./Abb5.png><./Abb6.png>](load luc: C:/texlive/2017/texmf-var/luatex-cache/gen
-eric/fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-
-cache/generic/fonts/otl/lmroman6-regular.luc)
-<plot1.pdf, id=112, pagebox=cropbox, 462.52798pt x 346.89601pt>
+)
+(./Auswertung.tex [6<./Abb4.png><./Abb5.png>] [7<./Abb6.png>]
+<plot1.pdf, id=111, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
 Package luatex.def Info: plot1.pdf  used on input line 52. on input line 52.
@@ -2326,7 +2325,7 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 52--53
  []
 
 [8] [9<./plot1.pdf>]
-<plot2.pdf, id=148, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot2.pdf, id=145, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot2.pdf Graphic file (type pdf)
 <use plot2.pdf>
 Package luatex.def Info: plot2.pdf  used on input line 107. on input line 107.
@@ -2338,7 +2337,7 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 107--108
  []
 
 [10] [11<./plot2.pdf>]
-<plot3.pdf, id=183, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot3.pdf, id=181, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot3.pdf Graphic file (type pdf)
 <use plot3.pdf>
 Package luatex.def Info: plot3.pdf  used on input line 173. on input line 173.
@@ -2350,7 +2349,7 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 173--174
  []
 
 [12] [13<./plot3.pdf>]
-<plot4.pdf, id=216, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot4.pdf, id=214, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot4.pdf Graphic file (type pdf)
 <use plot4.pdf>
 Package luatex.def Info: plot4.pdf  used on input line 233. on input line 233.
@@ -2362,7 +2361,7 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 233--234
  []
 
 [14] [15<./plot4.pdf>]
-<plot5.pdf, id=249, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot5.pdf, id=247, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot5.pdf Graphic file (type pdf)
 <use plot5.pdf>
 Package luatex.def Info: plot5.pdf  used on input line 285. on input line 285.
@@ -2374,7 +2373,7 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 285--286
  []
 
 [16]
-<plot6.pdf, id=255, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot6.pdf, id=253, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot6.pdf Graphic file (type pdf)
 <use plot6.pdf>
 Package luatex.def Info: plot6.pdf  used on input line 353. on input line 353.
@@ -2400,7 +2399,7 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: E7332199682CD6B094976865F5164182;11160.
+(rerunfilecheck)             Checksum: 3B4BD600C38B59110B5E65E36C5E80DB;11160.
 Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
 (rerunfilecheck)             Checksum: 94DD28C7F8B467BA99E0110323F66DFA;851.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
@@ -2409,29 +2408,30 @@ Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40801 strings out of 494472
+ 40804 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 691 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 30 attribute, 77 glue_spec, 30 attr
+ 687 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 29 attribute, 77 glue_spec, 29 attr
 ibute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:1144,3:155,4:32,5:214,6:2274,7:1289,8:136,9:325,10:15,11:3
-08
- 43653 multiletter control sequences out of 65536+600000
- 109 fonts using 27468199 bytes
- 61i,14n,104p,8838b,2519s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:2,2:1144,3:153,4:35,5:202,6:2136,7:1289,8:136,9:325,10:18,11:2
+82
+ 43655 multiletter control sequences out of 65536+600000
+ 110 fonts using 27560395 bytes
+ 61i,15n,104p,8838b,2519s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
-2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/tex
-mf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texm
-f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf
--dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-
-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
-fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts
-/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (20 pages, 973145 bytes).
+2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/t
+exmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texmf-dis
+t/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist
+/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/
+fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/f
+onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/
+opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opent
+ype/public/lm/lmsans10-bold.otf>
+Output written on Protokoll.pdf (20 pages, 974297 bytes).
 
-PDF statistics: 414 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
+PDF statistics: 418 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
  61 named destinations out of 1000 (max. 131072)
  73 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,20 +1,20 @@
 \section{Zielsetzung}
-In diesem Versuch sollen Magnetfelder von verschiedener Spulenanordnung vermessen werden.
+In diesem Versuch sollen Magnetfelder von verschiedenen Spulenanordnung vermessen werden.
 \section{Theorie}
 Magnetische Felder werden erzeugt, wenn sich elektrische Ladung bewegt.
 Dabei sind sie von Betrag und Richtung als Vektorgröße durch die magnetische Feldstärke
 $\vec{H}$ beschrieben. Wichtig zu erwähnen ist das Magnetfelder keine Monopole besitzen
-sondern immer paarweise auftreten und geschlossen sind im Gegensatz zum elektrischen Feld.
+sondern immer paarweise auftreten und die Feldlinien geschlossen sind im Gegensatz zum elektrischen Feld.
 Die magnetische Flussdichte $\vec{B}$ wird über die Feldstärke $\vec{H}$ und über die
-Permeabilität $\mu$ zu der Formel:
+Permeabilität $\mu$ beschrieben durch
 
 \begin{equation}
   \vec{B} = \mu \cdot \vec{H}
   \label{eq:1}
 \end{equation}
 
-Dabei beschreibt die Permeabilität $\mu$ die "Leitfähigkeit" des Materials und setzt sich
-aus $\mu = \mu_0 \cdot \mu_r$ zusammen. $\mu_0$ ist die Vakuum-Permeabilität und beträgt $4 \cdot \pi \cdot 10^{-7}$
+Dabei beschreibt die Permeabilität $\mu$ die \enquote{Leitfähigkeit} des Materials und setzt sich
+aus $\mu = \mu_0 \cdot \mu_r$ zusammen. $\mu_0$ ist die Vakuum-Permeabilität und beträgt $4 \cdot \pi \cdot 10^{-7} \si{\ampere\second \per\volt\per\meter}$
 und $\mu_r$ die relative Permeabilität der Materie.
 Bei einem stromdurchflossenen Leiter verlaufen die Feldlinien in konzentrische Kreise und
 stehen senkrecht zum Stromfluss. Mit Hilfe des Biot-Savartschen Gesetz lässt sich
@@ -24,13 +24,13 @@ das Magnetfeld mit einem Abstand $r$ und dem Strom $I$
   d\vec{B} = \frac{\mu_0 I}{4\pi} \frac{d\vec{s} \times \vec{r}}{r^3}
 \end{equation*}
 
-berechnen. In Abbildung (\ref{abb:1}), folgt für die stromdurchflossene Spule die Formel:
+berechnen. Mit Hilfe des Biot-Savartschen Gesetz folgt für die stromdurchflossene Spule die Formel:
 
 \begin{equation}
   \vec{B}(x) = \frac{\mu_0 I}{2} \frac{R^2}{(R^2 + x^2)^{\frac{3}{2}}}
   \label{eq:2}
 \end{equation}
-
+Dabei  beschreibt R den Spulenradius und x ein beliebigen Punkt in der Spule.
 \begin{figure}[H]
   \centering
   \includegraphics[width=5 cm , height=3.5 cm]{Abb1.png}
@@ -39,7 +39,7 @@ berechnen. In Abbildung (\ref{abb:1}), folgt für die stromdurchflossene Spule d
 \end{figure}
 
 Im Inneren für langgestreckten Spule (Solenoid) ist die magnetische Feldstärke $\vec{H}$
-homogen und konstant während es außerhalb inhomogen ist.
+homogen und konstant während sie außerhalb inhomogen ist.
 Mit der Spulenlänge $l$, der Windungszahl $n$ und den Strom $I$ lässt sich das
 homogene Magnetfeld mit der Formel
 
@@ -79,13 +79,6 @@ Feld im Inneren der beiden Spulen. Eine Darstellung ist in Abbildung(\ref{abb:2}
 \label{abb:2}
 \end{figure}
 
-Mit Hilfe der Gleichung (\ref{eq:2}) lässt sich das Magnetfeld
-
-\begin{equation*}
-  B(0)=B_1(x_1) + B_1(-x_1) = \mu_0 I \frac{R^2}{(R^2 + x^2)^{\frac{3}{2}}}
-\end{equation*}
-
-beschreiben. Dabei ist $x=\frac{d}{2}$ mit $d$ als Abstand der beiden Spulen gemeint.\\
 Alternativ kann das Magnetfeld einer Helmholtz-Spule mit der folgenden Gleichung bestimmt
 werden, die auch mit dem Biot-Savart-Gesetz bestimmt wurde. Mit dieser Gleichung wird das
 Magnetfeld im Zentrum der Spule beschrieben, also an jeder Stelle der x-Achse.
@@ -104,22 +97,22 @@ Mit einem äußeren Magnetfeld gibt es eine Richtungsänderung und zu einer Verg
 Dies wird solange ausgeführt bis alle magnetischen Momente mit der Ausrichtung vom Magnetfeld übereinstimmen.
 Für ferromagnetische Materialien ist die relative Permeabilität $\mu_r$ sehr hoch, somit ist die Gültigkeit der
 Gleichung (\ref{eq:1}) ungültig.
-Die Hysteresekurve beschreibt diese Nicht-linearität und ist in Abbildung (\ref{abb:3}) dargestellt.
+Die Hysteresekurve beschreibt diese Nicht-Linearität und ist in Abbildung (\ref{abb:3}) dargestellt.
 \begin{figure}[H]
   \centering
   \includegraphics[width=10cm, height= 7cm]{Abb3.png}
   \caption{Schematische Darstellung einer Hysteresekurve \cite{1}.}
   \label{abb:3}
 \end{figure}
-Liegt ein äußeres Magnetfeld an so wird die \textbf{1} in der Abbildung (\ref{abb:3}) eine
-Neukurve dargestellt. Sie erreicht nach einiger Zeit ein Sättigungswert $B_s$. Beim Abschalten
+In Abbildung (\ref{abb:3}) wird \textbf{1} als Neukurve bezeichnet.
+Sie erreicht nach einiger Zeit ein Sättigungswert $B_s$. Beim Abschalten
 des äußeren Magnetfeldes, bleibt noch beim Ferromagnet eine "Restmagnetisierung" die
 als Remanenz bezeichnet wird. Die \textbf{2} beschreibt die Koerzitivkraft um die Remanenz auf null zu bekommen.
 Durch Erhöhung des Gegenfeldes wird ebenfalls ein negativen Sättigungswert erreicht.
 Die \textbf{3} zeigt den Kurvenverlauf durch Erhöhung des Magnetfeldes und sie ist symmetrisch zur Hysteresekurve.
 Somit wird die relative Permeabilität $\mu_r$ eine Funktion zur Feldstärke $\vec{H}$.
-Die Neukurve wird durch die differentielle Permeabilität $\mu_{diff}$ beschrieben und lautet
+Die Neukurve wird durch die differentielle Permeabilität $\mu_\text{diff}$ beschrieben und lautet
 \begin{equation*}
-  \mu_{diff} = \frac{dB}{\mu_0 \cdot dH}
+  \mu_\text{diff} = \frac{dB}{\mu_0 \cdot dH}
   \label{eq:6}
 \end{equation*}
