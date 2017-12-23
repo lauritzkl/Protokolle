@@ -11,22 +11,27 @@ mpl.rcParams.update({
 'pgf.preamble': r'\usepackage{unicode-math}\usepackage{siunitx}',
 })
 
-x, y = np.genfromtxt('data2.txt', unpack=True)
+y, x = np.genfromtxt('data2.txt', unpack=True)
 
 def f(x, a, b):
-    x = a*np.cos(y+b)
-    return x
+    y = a*np.cos(x + b)
+    return y
+
+x_plot = np.linspace(0, 5, 1000)
 
 params, covariance_matrix = curve_fit(f, x, y)
+
 errors = np.sqrt(np.diag(covariance_matrix))
 #b ist die offzielle Phasenverschiebung aber ich habe eine Value error
 plt.plot(x, y, r'kx', label='Messwerte')
-plt.plot(x, f(y, *params), 'r-', label='Regression')
-#plt.plot(y, y_t, label='Theoriekurve')
+plt.plot(x_plot, f(x_plot, *params), 'r-', label='Regression')
+plt.xticks([0, np.pi/4, np.pi/2, 3*np.pi/4, np.pi, 5*np.pi/4, 3*np.pi/2],
+            [r"$0$", r"$\frac{\pi}{4}$", r"$\frac{\pi}{2}$",  r"$\frac{3\pi}{4}$", r"$\pi$",
+             r"$\frac{5\pi}{4}$", r"$\frac{3\pi}{2}$"])
 plt.legend()
 plt.grid()
-#plt.ylabel(r'$I \, / \, \si{\volt}$')
-#plt.xlabel(r'$x \, / \, \si{\centi\meter}$')
+plt.ylabel(r'$U_{out} \, / \, \si{\volt}$')
+plt.xlabel(r'$\phi \, / \, rad$')
 plt.tight_layout()
 plt.savefig('plot2.pdf')
 print('a=', params[0], '+-', errors[0])
