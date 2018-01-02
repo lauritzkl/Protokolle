@@ -1,4 +1,4 @@
-# U/V phi/Grad
+# U/V phi/Radiant
 55.6   0
 55.4   0.785
 35.4   1.047
