@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'Protokoll.blg'
-[136] biber-MSWIN32:303> INFO - === 
-[335] Biber.pm:359> INFO - Reading 'Protokoll.bcf'
-[497] Biber.pm:835> INFO - Found 1 citekeys in bib section 0
-[587] Biber.pm:3670> INFO - Processing section 0
-[742] Biber.pm:3840> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[768] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[827] bibtex.pm:1292> INFO - Found BibTeX data source 'lit.bib'
-[893] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[904] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[904] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
-[905] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
-[907] bbl.pm:608> INFO - Writing 'Protokoll.bbl' with encoding 'UTF-8'
-[908] bbl.pm:712> INFO - Output to Protokoll.bbl
+[41] biber-MSWIN32:303> INFO - === 
+[78] Biber.pm:359> INFO - Reading 'Protokoll.bcf'
+[217] Biber.pm:835> INFO - Found 1 citekeys in bib section 0
+[234] Biber.pm:3670> INFO - Processing section 0
+[253] Biber.pm:3840> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[256] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[260] bibtex.pm:1292> INFO - Found BibTeX data source 'lit.bib'
+[276] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[276] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[276] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
+[276] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
+[278] bbl.pm:608> INFO - Writing 'Protokoll.bbl' with encoding 'UTF-8'
+[279] bbl.pm:712> INFO - Output to Protokoll.bbl

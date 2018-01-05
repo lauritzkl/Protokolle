@@ -33,32 +33,11 @@ Bildschirmfotos dar.
 
 Anschließend wird das Signal am Mischer durch ein Tiefpassfilter angeschlossen und folgende
 Messwerte sind in der Tabelle (\ref{tab:1}) dargestellt.
-\begin{table}[H]
-\centering
-\caption{Darstellung der Messergebnisse}
-\label{tab:1}
- \begin{tabular}{c c c c c c}
-  \toprule
-     $U_\text{out} / V$ & $\Phi/\circ$ & $U_\text{theo1} / V$ & $U_\text{theo2} / V$ & $Abweichung \, 1 / \%$ &$Abweichung \, 2 / \%$ \\
-  \midrule
-  55,6  & 0   & 55,6  &	54,36 &	0			 & 2,28\\
-  55,4  & 45  & 39,3  & 46,51 &	40,97  & 19,1\\
-  35,4  & 60  & 27,8  & 37,03 &	27,34  & 4,40\\
-  12,3  & 90  & 0		  & 11,30 & -  		 & 8,85\\
-  -19,4 & 120 &-27,8  &-17,40 & 30,22  & 11,5\\
-  -42,9 & 150 &-48,2  &-41,48 & 11,00  & 3,42\\
-  -55,3 & 180 &-55,6  &-54,44 & 0,54   & 1,58\\
-  -55,8 & 210 &-48,2  &-52,80 & 15,77  & 5,68\\
-  -37,3 & 240 &-27,8  &-37,01 & 34,17  & 0,78\\
-  -12,1 & 270 &   0   &-11,34 & - 		 & 8,47\\
-  \bottomrule
-\end{tabular}
-\end{table}
-Die Theoriewerte werden mit der Gleichung (\ref{eq:1}) berechnet. $U_o$ ist in diesem Fall durch den Vorverstärker
-und Verstärker auf $111,2 V$ verstärkt worden.\\
-
-Mit Hilfe des Diagramms (\ref{abb:5}) werden die Theoriewerte $U_\text{theo2}$ errechnet.
-Zu sehen ist, dass die eingestellte Phase nicht gegenüber der Theoriekurve übereinstimmt.
+Die Theoriewerte werden mit der Gleichung (\ref{eq:1}) berechnet.
+$U_o$ ist durch den Vorverstärker und Verstärker auf $111,2 V$ verstärkt worden.\\
+Im Diagramm (\ref{abb:5}) wurde ein Ausgleichsrechnung durchgeführt, da die eingestellte Phasenverschiebung
+nicht geeicht war. Zu sehen ist, dass die eingestellte Phase nicht
+gegenüber der Theoriekurve übereinstimmt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{kurve1.pdf}
@@ -67,17 +46,39 @@ Zu sehen ist, dass die eingestellte Phase nicht gegenüber der Theoriekurve übe
 \end{figure}
 Folgende Ausgleichsrechnung wurde angewandt:
 \begin{equation*}
-	 U_o = a * cos(x - b)
+	 U_o = A * cos(x - \phi)
  \end{equation*}
-Dabei ist $a$ die Amplitude und $b$ die Phasenverschiebung.
+Dabei ist $A$ die Amplitude, $x$ die eingestellte Phase und $\phi$ die Phasenverschiebung.
 \begin{itemize}
-	\item a = 58,3 \pm 1,4 V
-	\item b = 0,205 \pm 0,03 rad
+	\item A = 58,3 \pm \, 1,4 V
+	\item \phi = 0,205 \pm \, 0,03 rad
 \end{itemize}
+\begin{table}[H]
+\centering
+\caption{Darstellung der Messergebnisse}
+\label{tab:1}
+ \begin{tabular}{c c c c}
+  \toprule
+     $U_\text{mess} / V$ & $\Phi/\circ$ & $U_\text{theo}$ & $Abweichung / \%$ \\
+  \midrule
+  55,6  & 0    & 54,36 & 2,28\\
+  55,4  & 45   & 46,51 & 19,1\\
+  35,4  & 60   & 37,03 & 4,40\\
+  12,3  & 90   & 11,30 & 8,85\\
+  -19,4 & 120  &-17,40 & 11,5\\
+  -42,9 & 150  &-41,48 & 3,42\\
+  -55,3 & 180  &-54,44 & 1,58\\
+  -55,8 & 210  &-52,80 & 5,68\\
+  -37,3 & 240  &-37,01 & 0,78\\
+  -12,1 & 270  &-11,34 & 8,47\\
+  \bottomrule
+\end{tabular}
+\end{table}
 
 Nun wird ein Rauschsignal hinzugeschaltet. Nun wird das Verfahren erneut durchgeführt.
 Eine schematische Darstellung der Amplitude mit Rauschen in unterschiedlichen Phasen zeigt die nun folgenden
 Bildschirmfotos dar.
+
 \begin{figure}[H]
   \centering
   \begin{subfigure}{0.48\textwidth}
@@ -104,37 +105,38 @@ Bildschirmfotos dar.
 
 Anschließend wird das Signal mit Rauschen am Mischer durch ein Tiefpassfilter angeschlossen und folgende
 Messwerte sind in der Tabelle (\ref{tab:2}) dargestellt.
+Dabei ist Phasenverschiebung die selbe wie zuvor und in der Berechnung berücksitigt worden.
 \begin{table}[H]
 \centering
 \caption{Darstellung der Messergebnisse für $U_o =111,2 V$}
 \label{tab:2}
- \begin{tabular}{c c c c c c}
+ \begin{tabular}{c c c c}
   \toprule
-     $U_\text{out} / V$ & $\Phi/\circ$ & $U_\text{theo1} / V$ & $U_\text{theo2} / V$ & $Abweichung \, 1 / \%$ &$Abweichung \, 2 / \%$ \\
+     $U_\text{mess} / V$ & $\Phi/\circ$ & $U_\text{theo} / V$ & $Abweichung/ \%$ \\
   \midrule
-  49,2  & 0   & 55,6  &	54,36 & 11,51 & 9,49 \\
-  49,6  & 45  & 39,32 & 46,51 & 26,14 & 6,64 \\
-  33,8  & 60  & 27,8  & 37,03 & 21,58 & 8,71 \\
-  14,6  & 90  &   0   & 11,30 & -     & 29,2 \\
-  -4,12 & 120 &-27,8  &-17,40 & 85,18	& 76,3 \\
-  -36,7 & 150 &-48,2  &-41,48 & 23,86 & 11,5 \\
-  -47,8 & 180 &-55,6  &-54,44 & 14,03 & 12,2 \\
-  -49,6 & 210 &-48,2  &-52,80 & 2,90  & 6,07 \\
-  -34,5 & 240 &-27,8  &-37,01 & 24,1  & 6,78 \\
-  -14,6 & 270 &   0   &-11,34 & -     & 28,8 \\
+  49,2  & 0  & 	54,36 & 9,49 \\
+  49,6  & 45 &  46,51 & 6,64 \\
+  33,8  & 60 &  37,03 & 8,71 \\
+  14,6  & 90 &  11,30 & 29,2 \\
+  -4,12 & 120& -17,40 & 76,3 \\
+  -36,7 & 150& -41,48 & 11,5 \\
+  -47,8 & 180& -54,44 & 12,2 \\
+  -49,6 & 210& -52,80 & 6,07 \\
+  -34,5 & 240& -37,01 & 6,78 \\
+  -14,6 & 270& -11,34 & 28,8 \\
   \bottomrule
 \end{tabular}
 \end{table}
 
 Die Abweichung in Tabelle (\ref{tab:1}) und (\ref{tab:2}) sind mit folgende Formel
 \begin{equation*}
-  \sigma = \biggl| \frac{U_{theo_{1,2}}-U_\text{out}}{U_{theo_{1,2}}} \biggl| \cdot 100
+  \sigma = \biggl| \frac{U_{theo}-U_\text{mess}}{U_{theo}} \biggl| \cdot 100
 \end{equation*}
 berechnet worden.
 
 Bei der Leuchtdiode wird eine Rechteckspannung moduliert. Die eingestellte Frequenz ist $\omega = 159,6 \, \si{\hertz}$ und
-besitzt eine Amplitude von $2 V$.
-Folgende Messwerte werden in der Tabelle (\ref{tab:3}) dargestellt und in der Abbildung (\ref{abb:6}) als
+besitzt eine Amplitude von $2 \, V$.
+Folgende Messwerte werden in der Tabelle (\ref{tab:3}) und in der Abbildung (\ref{abb:6}) als
 Diagramm dargestellt.
 
 \begin{table}[H]
@@ -175,9 +177,9 @@ Diagramm dargestellt.
   \label{abb:6}
 \end{figure}
 
-Die Werte bis zu dem Abstand $r = 14,5 cm$ sind physikalische nicht sinnvoll.
+Die Werte bis zu dem Abstand $r = 14,5 \, cm$ sind physikalische nicht sinnvoll.
 Es soll das Gesetz der Strahlungsintensität in Abhängigkeit des Abstandes nachgewiesen werden.
-Daher werden die Messergebnisse ab dem Abstand von $r = 14,5 cm$ betrachtet und erneut in
+Daher werden die Messergebnisse ab dem Abstand von $r = 14,5 \, cm$ betrachtet und erneut in
 Diagarmm (\ref{abb:7}) dargestellt.
 
 \begin{figure}[H]
