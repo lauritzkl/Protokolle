@@ -11,28 +11,25 @@ mpl.rcParams.update({
 'pgf.preamble': r'\usepackage{unicode-math}\usepackage{siunitx}',
 })
 
-y, x = np.genfromtxt('data2.txt', unpack=True)
+y, x = np.genfromtxt('data4.txt', unpack=True)
 
 def f(x, a, b):
-    y = a*np.cos(x - b)
+    y = a * np.cos(x - b)
     return y
 
 x_plot = np.linspace(0, 5, 1000)
-t = np.linspace(0, 5, 1000)
 params, covariance_matrix = curve_fit(f, x, y)
 
 errors = np.sqrt(np.diag(covariance_matrix))
 plt.plot(x, y, r'kx', label='Messwerte')
 plt.plot(x_plot, f(x_plot, *params), 'r-', label='Regression')
-plt.plot(t, f(t, *params), 'b-', label='Theoriekurve')
-plt.xticks([0, np.pi/4, np.pi/2, 3*np.pi/4, np.pi, 5*np.pi/4, 3*np.pi/2],
-            [r"$0$", r"$\frac{\pi}{4}$", r"$\frac{\pi}{2}$",  r"$\frac{3\pi}{4}$", r"$\pi$",
-             r"$\frac{5\pi}{4}$", r"$\frac{3\pi}{2}$"])
+plt.xticks([0, np.pi / 4, np.pi / 2, 3 * np.pi / 4, np.pi, 5 * np.pi / 4, 3 * np.pi / 2, 7 * np.pi / 4, 2 * np.pi],
+           [r"$0$", r"$\frac{1}{4}\pi$", r"$\frac{1}{2}\pi$", r"$\frac{3}{4}\pi$", r"$\pi$", r"$\frac{5}{4}\pi$", r"$\frac{3}{2}\pi$", r"$\frac{7}{4}\pi$", r"$2\pi$"])
 plt.legend()
 plt.grid()
 plt.ylabel(r'$U_{out} \, / \, \si{\volt}$')
 plt.xlabel(r'$\phi \, / \, rad$')
 plt.tight_layout()
-plt.savefig('plot2.pdf')
+plt.savefig('plot5.pdf')
 print('a=', params[0], '+-', errors[0])
 print('b=', params[1], '+-', errors[1])

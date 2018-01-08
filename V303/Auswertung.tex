@@ -34,10 +34,9 @@ Bildschirmfotos dar.
 Anschließend wird das Signal am Mischer durch ein Tiefpassfilter angeschlossen und folgende
 Messwerte sind in der Tabelle (\ref{tab:1}) dargestellt.
 Die Theoriewerte werden mit der Gleichung (\ref{eq:1}) berechnet.
-$U_o$ ist durch den Vorverstärker und Verstärker auf $111,2 V$ verstärkt worden.\\
+$U_o$ ist durch den Vorverstärker und Verstärker auf $55,6 V$ verstärkt worden.\\
 Im Diagramm (\ref{abb:5}) wurde ein Ausgleichsrechnung durchgeführt, da die eingestellte Phasenverschiebung
-nicht geeicht war. Zu sehen ist, dass die eingestellte Phase nicht
-gegenüber der Theoriekurve übereinstimmt.
+nicht geeicht war. Die Ausgleichsrechnung wurde mithilfe von Python 3.6 durchgeführt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{kurve1.pdf}
@@ -45,17 +44,18 @@ gegenüber der Theoriekurve übereinstimmt.
 	\label{abb:5}
 \end{figure}
 Folgende Ausgleichsrechnung wurde angewandt:
-\begin{equation*}
+\begin{equation}
 	 U_o = A * cos(x - \phi)
- \end{equation*}
+	 \label{eq:10}
+ \end{equation}
 Dabei ist $A$ die Amplitude, $x$ die eingestellte Phase und $\phi$ die Phasenverschiebung.
 \begin{itemize}
-	\item A = 58,3 \pm \, 1,4 V
-	\item \phi = 0,205 \pm \, 0,03 rad
+	\item $A = \SI{58.3(14)}{\volt}$
+	\item $\phi = \num{0.205(30)} \, \text{rad}$
 \end{itemize}
 \begin{table}[H]
 \centering
-\caption{Darstellung der Messergebnisse}
+\caption{Darstellung der Messergebnisse.}
 \label{tab:1}
  \begin{tabular}{c c c c}
   \toprule
@@ -75,9 +75,9 @@ Dabei ist $A$ die Amplitude, $x$ die eingestellte Phase und $\phi$ die Phasenver
 \end{tabular}
 \end{table}
 
-Nun wird ein Rauschsignal hinzugeschaltet. Nun wird das Verfahren erneut durchgeführt.
-Eine schematische Darstellung der Amplitude mit Rauschen in unterschiedlichen Phasen zeigt die nun folgenden
-Bildschirmfotos dar.
+Nun wird ein Rauschsignal hinzugeschaltet. Das Verfahren erneut durchgeführt.
+Eine schematische Darstellung der Amplitude mit Rauschen in unterschiedlichen Phasen wird in den nun folgenden
+Bildschirmfotos gezeigt.
 
 \begin{figure}[H]
   \centering
@@ -103,12 +103,22 @@ Bildschirmfotos dar.
 \end{subfigure}
 \end{figure}
 
-Anschließend wird das Signal mit Rauschen am Mischer durch ein Tiefpassfilter angeschlossen und folgende
+Anschließend wird das Signal mit Rauschen an einen Tiefpassfilter angeschlossen und die
 Messwerte sind in der Tabelle (\ref{tab:2}) dargestellt.
-Dabei ist Phasenverschiebung die selbe wie zuvor und in der Berechnung berücksitigt worden.
+Auch bei diesem Fall wird mit Python 3.6 eine Ausgleichsrechnung durchgeführt,
+welche in Abbildung (\ref{abb:8}) Graphisch dargestellt ist.\\\\
+
+Diese Ausgleichsrechnung wurde wieder mit der Gleichung (\ref{eq:10}) durchgeführt.
+In diesem Fall ergeben sich für die Parameter:
+
+\begin{itemize}
+	\item $A = \SI{}{\volt}$
+	\item $\phi = \num{} \, \text{rad}$
+\end{itemize}
+
 \begin{table}[H]
 \centering
-\caption{Darstellung der Messergebnisse für $U_o =111,2 V$}
+\caption{Darstellung der Messergebnisse für $U_o =55,6 V$.}
 \label{tab:2}
  \begin{tabular}{c c c c}
   \toprule
@@ -127,6 +137,14 @@ Dabei ist Phasenverschiebung die selbe wie zuvor und in der Berechnung berücksi
   \bottomrule
 \end{tabular}
 \end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics{plot5.pdf}
+	\caption{Graphische Darstellung der Messwerte mit dem Rauschsignal.}
+	\label{abb:8}
+\end{figure}
+
 
 Die Abweichung in Tabelle (\ref{tab:1}) und (\ref{tab:2}) sind mit folgende Formel
 \begin{equation*}
