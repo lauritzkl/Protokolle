@@ -1,7 +1,16 @@
-from scipy.optimize import curve_fit
+import matplotlib as mpl
+mpl.use('pgf')
 import numpy as np
+from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
-# from uncertainties import ufloat
+mpl.rcParams.update({
+'font.family': 'serif',
+'text.usetex': True,
+'pgf.rcfonts': False,
+'pgf.texsystem': 'lualatex',
+'pgf.preamble': r'\usepackage{unicode-math}\usepackage{siunitx}',
+})
+
 U, p = np.genfromtxt('data2.txt', unpack=True)
 phi = np.linspace(0, 5, 1000)
 t = np.linspace(0, 5, 1000)

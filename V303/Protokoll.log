@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  8 JAN 2018 23:43
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.12)  9 JAN 2018 20:56
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.344 seconds
+luaotfload | main : initialization completed in 0.266 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2365,31 +2365,31 @@ Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
  42.
  [6<./0Grad.JPG><./45Grad.JPG><./90Grad.JPG><./180Grad.JPG><./270Grad.JPG>] [7<.
 /kurve1.pdf>]
-<0GradR.JPG, id=143, pagebox=cropbox, 256.96pt x 192.72pt>
+<0GradR.JPG, id=114, pagebox=cropbox, 256.96pt x 192.72pt>
 File: 0GradR.JPG Graphic file (type jpg)
 <use 0GradR.JPG>
 Package luatex.def Info: 0GradR.JPG  used on input line 85. on input line 85.
 Package luatex.def Info: Requested size: 200.76086pt x 150.57387pt on input line
  85.
-<45GradR.JPG, id=144, pagebox=cropbox, 256.96pt x 192.72pt>
+<45GradR.JPG, id=115, pagebox=cropbox, 256.96pt x 192.72pt>
 File: 45GradR.JPG Graphic file (type jpg)
 <use 45GradR.JPG>
 Package luatex.def Info: 45GradR.JPG  used on input line 89. on input line 89.
 Package luatex.def Info: Requested size: 200.76086pt x 150.57387pt on input line
  89.
-<90GradR.JPG, id=145, pagebox=cropbox, 256.96pt x 192.72pt>
+<90GradR.JPG, id=116, pagebox=cropbox, 256.96pt x 192.72pt>
 File: 90GradR.JPG Graphic file (type jpg)
 <use 90GradR.JPG>
 Package luatex.def Info: 90GradR.JPG  used on input line 93. on input line 93.
 Package luatex.def Info: Requested size: 200.76086pt x 150.57387pt on input line
  93.
-<180GradR.JPG, id=146, pagebox=cropbox, 256.96pt x 192.72pt>
+<180GradR.JPG, id=117, pagebox=cropbox, 256.96pt x 192.72pt>
 File: 180GradR.JPG Graphic file (type jpg)
 <use 180GradR.JPG>
 Package luatex.def Info: 180GradR.JPG  used on input line 97. on input line 97.
 Package luatex.def Info: Requested size: 200.76086pt x 150.57387pt on input line
  97.
-<270GradR.JPG, id=147, pagebox=cropbox, 256.96pt x 192.72pt>
+<270GradR.JPG, id=118, pagebox=cropbox, 256.96pt x 192.72pt>
 File: 270GradR.JPG Graphic file (type jpg)
 <use 270GradR.JPG>
 Package luatex.def Info: 270GradR.JPG  used on input line 101. on input line 101
@@ -2407,11 +2407,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
  []
 
 [9<./0GradR.JPG><./45GradR.JPG><./90GradR.JPG><./180GradR.JPG><./270GradR.JPG>]
-LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 121.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 121.
-<plot5.pdf, id=163, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot5.pdf, id=134, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot5.pdf Graphic file (type pdf)
 <use plot5.pdf>
 Package luatex.def Info: plot5.pdf  used on input line 143. on input line 143.
@@ -2426,14 +2422,14 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 143--144
 Missing character: There is no ä (U+00E4) in font cmmi10!
 Missing character: There is no ä (U+00E4) in font cmmi10!
  [11<./plot5.pdf>]
-<plot1.pdf, id=209, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot1.pdf, id=179, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
 Package luatex.def Info: plot1.pdf  used on input line 193. on input line 193.
 Package luatex.def Info: Requested size: 418.25555pt x 313.70679pt on input line
  193.
  [12]
-<plot4.pdf, id=215, pagebox=cropbox, 462.52798pt x 346.89601pt>
+<plot4.pdf, id=185, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot4.pdf Graphic file (type pdf)
 <use plot4.pdf>
 Package luatex.def Info: plot4.pdf  used on input line 205. on input line 205.
@@ -2448,7 +2444,7 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
-(rerunfilecheck)             Checksum: 67F39569058B815F458B8F7E3609BDFD;6362.
+(rerunfilecheck)             Checksum: 2AF77B5286C0C4EEC4F9F2EA5E8E4754;6380.
 Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
 (rerunfilecheck)             Checksum: EAFC82F98E13F25758DF47CCC31B6E92;492.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
@@ -2457,28 +2453,27 @@ Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40921 strings out of 494483
+ 40892 strings out of 494483
  100000,1648299 words of node,token memory allocated
  602 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 12 attribute, 76 glue_spec, 12 attr
 ibute_list, 1 write nodes
-   avail lists: 1:2,2:498,3:85,4:24,5:192,6:1914,7:612,8:64,9:165,10:9,11:242
- 43740 multiletter control sequences out of 65536+600000
- 147 fonts using 38646495 bytes
+   avail lists: 1:2,2:498,3:85,4:26,5:192,6:1914,7:612,8:64,9:165,10:9,11:242
+ 43721 multiletter control sequences out of 65536+600000
+ 137 fonts using 35807231 bytes
  61i,11n,104p,8838b,2519s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
-xlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
-live/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/201
-7/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017
-/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/texmf
--dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-
-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
-fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts
-/opentype/public/lm/lmsans10-bold.otf>
-Output written on Protokoll.pdf (14 pages, 1085538 bytes).
+xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
+17/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/201
+7/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/texm
+f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf
+-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist
+/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/font
+s/opentype/public/lm/lmsans10-bold.otf>
+Output written on Protokoll.pdf (14 pages, 1081203 bytes).
 
-PDF statistics: 343 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
+PDF statistics: 307 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
  37 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
