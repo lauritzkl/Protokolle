@@ -40,7 +40,7 @@ Damit ergeben sich die Parameter zu:
 
 \begin{figure}[H]
   \centering
-  \includegraphics{plot1.py}
+  \includegraphics{plot1.pdf}
   \caption{Graphische Darstellung der Messwerte mit der Ausgleichsgeraden.}
   \label{abb:4}
 \end{figure}
@@ -81,7 +81,7 @@ Durch die Ausgleichsrechnung, die mit Python 3.6 durchgeführt wurde folgt für 
 
 \begin{figure}[H]
   \centering
-  \includegraphics{plot2.py}
+  \includegraphics{plot2.pdf}
   \caption{Graphische Darstellung der Messwerte für die Schaltung mit der Gegenspannung.}
   \label{abb:5}
 \end{figure}
@@ -122,7 +122,7 @@ Durch die Ausgleichsrechnung ergibt sich für die Werte:
 
 \begin{figure}[H]
   \centering
-  \includegraphics{plot3.py}
+  \includegraphics{plot3.pdf}
   \caption{Graphische Darstellung der Messwerte für eine Rechteckspannung.}
   \label{abb:6}
 \end{figure}
@@ -161,7 +161,7 @@ dargestellt. Die Ergebnisse der Ausgleichsrechnung sind:
 
 \begin{figure}[H]
   \centering
-  \includegraphics{plot4.py}
+  \includegraphics{plot4.pdf}
   \caption{Graphische Darstellung der Messwerte für eine Sinusspannung.}
   \label{abb:7}
 \end{figure}
@@ -175,7 +175,7 @@ zu:
 \end{equation*}
 
 Da das reale Voltmeter keinen unendlich großen Widerstand haben kann, er ist in diesem
-Fall $R_v = \SI{10^7}{\ohm}$, ergibt sich ein systematischer Fehler bei der Bestimmung
+Fall $R_v = 10^7 \si{\ohm}$, ergibt sich ein systematischer Fehler bei der Bestimmung
 von der Leerlaufspannung. Aus der Gleichung (\ref{eq:2}) und der Gleichung (\ref{eq:1})
 folgt die folgende Gleichung für die theoretische Leerlaufspannung.
 
@@ -215,6 +215,8 @@ bestimmt:
   \Delta (\Delta U_0) = \sqrt{\left(\frac{1}{R_v} \cdot \Delta R_i\right)}
 \end{equation*}
 
+Die systematischen Fehler sind so gering, dass sie im folgenden nicht weiter beachtet werden. \\\\
+
 Nun soll die Schaltung in Abbildung (\ref{abb:2}) betrachtet werden, wenn das Voltemeter an
 dem Punkt H angeschlossen wird. Dann würde sich ein systematischer Fehler ergeben, der
 durch das Amperemeter verursacht wird. Das ideale Amperemeter hat zwar keinen Innenwiderstand,
@@ -240,7 +242,7 @@ Diese Gleichung lässt sich aus der Gleichung (\ref{eq:3}) herleiten.
   \label{tab:5}
   \begin{tabular}{c c c c}
     \toprule
-    $N /\si{\watt}$ & $R_a / \si{\ohm}$ & $N_{\text{theo}} / \si{\watt}$ & Abweichung \, / \, \% \\
+    $N /\si{\watt}$ & $R_a / \si{\ohm}$ & $N_{\text{theo}} / \si{\watt}$ & Abweichung / \% \\
     \midrule
     0,0240 & 3,75  & 0,0235 & 2,13 \\
     0,0320 & 7,81  & 0,0342 & 6,43 \\
@@ -258,7 +260,7 @@ Diese Gleichung lässt sich aus der Gleichung (\ref{eq:3}) herleiten.
 
 \begin{figure}[H]
   \centering
-  \includegraphics{plot5.py}
+  \includegraphics{plot5.pdf}
   \caption{Graphische Darstellung der umgesetzten Leistung mit den Belastungswiderstand.}
   \label{abb:8}
 \end{figure}
