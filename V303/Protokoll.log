@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  11 JAN 2018 10:32
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.9.23)  11 JAN 2018 16:29
  restricted system commands enabled.
 **Protokoll.tex
 (./Protokoll.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.308 seconds
+luaotfload | main : initialization completed in 0.256 seconds
 Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2432,19 +2432,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
-
-
-Package rerunfilecheck Warning: File `Protokoll.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.aux':
-(rerunfilecheck)             Before: 2AF77B5286C0C4EEC4F9F2EA5E8E4754;6380
-(rerunfilecheck)             After:  B2F5D27E6594BF68506D653F132D8A0F;6380.
-
-Package rerunfilecheck Warning: File `Protokoll.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Protokoll.toc':
-(rerunfilecheck)             Before: EAFC82F98E13F25758DF47CCC31B6E92;492
-(rerunfilecheck)             After:  376B04891A7A671610809B0A9C739468;492.
+Package rerunfilecheck Info: File `Protokoll.aux' has not changed.
+(rerunfilecheck)             Checksum: B2F5D27E6594BF68506D653F132D8A0F;6380.
+Package rerunfilecheck Info: File `Protokoll.toc' has not changed.
+(rerunfilecheck)             Checksum: 376B04891A7A671610809B0A9C739468;492.
 Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
 \openout1 = Protokoll.run.xml
@@ -2458,7 +2449,7 @@ Here is how much of LuaTeX's memory you used:
 ibute_list, 1 write nodes
    avail lists: 1:3,2:520,3:85,4:26,5:194,6:1914,7:615,8:64,9:169,10:11,11:242
  43652 multiletter control sequences out of 65536+600000
- 107 fonts using 27287727 bytes
+ 107 fonts using 27287879 bytes
  61i,11n,104p,8838b,3001s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
